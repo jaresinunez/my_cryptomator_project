@@ -1,0 +1,305 @@
+/* 
+  Localizable.strings
+  Cryptomator
+
+  Copyright © 2021 Skymatic GmbH. All rights reserved.
+*/
+
+"common.alert.error.title" = "Errore";
+"common.alert.attention.title" = "Attenzione";
+"common.button.cancel" = "Annulla";
+"common.button.change" = "Aggiorna";
+"common.button.choose" = "Scegli";
+"common.button.clear" = "Cancella";
+"common.button.close" = "Chiudi";
+"common.button.confirm" = "Conferma";
+"common.button.create" = "Crea";
+"common.button.createFolder" = "Crea Cartella";
+"common.button.done" = "Fatto";
+"common.button.download" = "Download";
+"common.button.edit" = "Modifica";
+"common.button.enable" = "Abilita";
+"common.button.next" = "Avanti";
+"common.button.ok" = "OK";
+"common.button.refresh" = "Aggiorna";
+"common.button.register" = "Registrati";
+"common.button.remove" = "Rimuovi";
+"common.button.retry" = "Riprova";
+"common.button.signOut" = "Disconnettiti";
+"common.button.verify" = "Verifica";
+"common.cells.openInFilesApp" = "Apri nell'App File";
+"common.cells.password" = "Password";
+"common.cells.url" = "URL";
+"common.cells.username" = "Nome utente";
+"common.footer.learnMore" = "Scopri di più.";
+"common.hud.authenticating" = "Autenticazione…";
+
+"accountList.header.title" = "Autenticazioni";
+"accountList.emptyList.message" = "Tocca qui per aggiungere un account";
+"accountList.signOut.alert.title" = "Rimuovere le Cassaforti Associate?";
+"accountList.signOut.alert.message" = "Disconnettendoti, tutte le cassaforti associate saranno rimosse dall'elenco delle cassaforti. Nessun dato crittografato sarà eliminato. Puoi accedere nuovamente e riaggiungerle in seguito.";
+
+"addVault.title" = "Aggiungi Cassaforte";
+"addVault.createNewVault.title" = "Crea Nuova Cassaforte";
+"addVault.createNewVault.purchase" = "La creazione di una nuova cassaforte richiede la versione completa di Cryptomator.";
+"addVault.createNewVault.setVaultName.header.title" = "Scegli un nome per la tua cassaforte.";
+"addVault.createNewVault.setVaultName.cells.name" = "Nome della Cassaforte";
+"addVault.createNewVault.setVaultName.error.emptyVaultName" = "Il nome della cassaforte non può essere vuoto.";
+"addVault.createNewVault.chooseCloud.header" = "Dove dovrebbe memorizzare Cryptomator i file crittografati della tua cassaforte?";
+"addVault.createNewVault.chooseFolder.error.vaultNameCollision" = "\"%@\" esiste già in questa posizione. Scegli un nome o una posizione della cassaforte diverso.";
+"addVault.createNewVault.detectedMasterkey.text" = "Cryptomator ha rilevato una cassaforte esistente in questa posizione.\nPer poterne creare una nuova, sei pregato di tornare indietro e scegliere una cartella differente.";
+"addVault.createNewVault.password.enterPassword.header" = "Inserisci una nuova password.";
+"addVault.createNewVault.password.confirmPassword.header" = "Conferma la nuova password.";
+"addVault.createNewVault.password.confirmPassword.alert.title" = "Confermare la Password?";
+"addVault.createNewVault.password.confirmPassword.alert.message" = "IMPORTANTE: Se dimentichi la tua password, non c'è moto di recuperare i tuoi dati.";
+"addVault.createNewVault.password.error.emptyPassword" = "La password non può essere vuota.";
+"addVault.createNewVault.password.error.nonMatchingPasswords" = "Le password non corrispondono.";
+"addVault.createNewVault.password.error.tooShortPassword" = "La password deve contenere almeno 8 caratteri.";
+"addVault.createNewVault.progress" = "Creando la Cassaforte…";
+"addVault.openExistingVault.title" = "Apri Cassaforte Esistente";
+"addVault.openExistingVault.chooseCloud.header" = "Dove si trova la cassaforte?";
+"addVault.openExistingVault.detectedMasterkey.text" = "Cryptomator ha rilevato la cassaforte \"%@\".\nVorresti aggiungerla?";
+"addVault.openExistingVault.detectedMasterkey.add" = "Aggiungi Questa Cassaforte";
+"addVault.openExistingVault.downloadVault.progress" = "Scaricamento Cassaforte…";
+"addVault.openExistingVault.password.footer" = "Inserisci la password per \"%@\".";
+"addVault.openExistingVault.progress" = "Aggiungendo la Cassaforte…";
+"addVault.success.info" = "Cassaforte \"%@\" aggiunta correttamente.\nAccedi a questa cassaforte tramite l'app File.";
+"addVault.success.footer" = "Se non lo hai già fatto, abilita Cryptomator nell'app File.";
+
+"biometryType.faceID" = "Face ID";
+"biometryType.touchID" = "Touch ID";
+
+"changePassword.error.invalidOldPassword" = "Password attuale è errata. Riprova.";
+"changePassword.header.currentPassword.title" = "Inserisci la password corrente.";
+"changePassword.header.newPassword.title" = "Inserisci una nuova password.";
+"changePassword.header.newPasswordConfirmation.title" = "Conferma la nuova password.";
+"changePassword.progress" = "Modificando la Password…";
+
+"chooseFolder.emptyFolder.footer" = "La Cartella è Vuota";
+"chooseFolder.createNewFolder.header.title" = "Scegli un nome per la cartella.";
+"chooseFolder.createNewFolder.cells.name" = "Nome della Cartella";
+"chooseFolder.createNewFolder.error.emptyFolderName" = "Il nome della cartella non può essere vuoto.";
+"chooseFolder.createNewFolder.progress" = "Creando la Cartella…";
+
+"cloudProvider.error.itemNotFound" = "\"%@\" non è stato trovato.";
+"cloudProvider.error.itemAlreadyExists" = "\"%@\" esiste già.";
+"cloudProvider.error.itemTypeMismatch" = "\"%@\" ha un tipo di elemento inatteso.";
+"cloudProvider.error.parentFolderDoesNotExist" = "La cartella padre \"%@\" non esiste.";
+"cloudProvider.error.pageTokenInvalid" = "Impossibile continuare il recupero dei contenuti della directory.";
+"cloudProvider.error.quotaInsufficient" = "Lo spazio di archiviazione dispone di spazio insufficiente.";
+"cloudProvider.error.unauthorized" = "Impossibile eseguire operazioni non autorizzate.";
+"cloudProvider.error.noInternetConnection" = "Connessione Internet necessaria per questa operazione.";
+
+"cloudProviderType.localFileSystem" = "Altro Fornitore di File";
+
+"fileProvider.onboarding.title" = "Benvenuto";
+"fileProvider.onboarding.info" = "Grazie per aver scelto Cryptomator per proteggere i tuoi file. Per iniziare, vai all'app principale e aggiungi una cassaforte.";
+"fileProvider.onboarding.button.openCryptomator" = "Apri Cryptomator";
+"fileProvider.error.biometricalAuthCanceled.title" = "Sblocco annullato";
+"fileProvider.error.biometricalAuthCanceled.message" = "Lo sblocco con %@ non è riuscito. Riprovare.";
+"fileProvider.error.biometricalAuthWrongPassword.title" = "Password Errata";
+"fileProvider.error.biometricalAuthWrongPassword.message" = "La password salvata per %@ è errata. Riprova e inserisci la password per riabilitare %@.";
+"fileProvider.error.defaultLock.title" = "Richiesto Sblocco";
+"fileProvider.error.defaultLock.message" = "La cassaforte deve essere sbloccata per accedere e vedere il contenuto.";
+"fileProvider.error.unlockButton" = "Sblocca";
+"fileProvider.clearFileFromCache.title" = "Cancella file dalla cache";
+"fileProvider.clearFileFromCache.message" = "Questo rimuove solo il file locale dal dispositivo e non elimina il file nel cloud.";
+"fileProvider.fileImporting.error.missingPremium" = "Sblocca la versione completa nell'applicazione Cryptomator per ottenere l'accesso in scrittura alle tue cassaforti.";
+"fileProvider.uploadProgress.connecting" = "Connessione…";
+"fileProvider.uploadProgress.message" = "Avanzamento attuale: %@\n\nSe stai notando che l'avanzamento di caricamento è bloccato, puoi riprovare il caricamento.";
+"fileProvider.uploadProgress.missing" = "Non è stato possibile determinare i progressi, che potrebbero essere ancora in esecuzione in background.";
+"fileProvider.uploadProgress.title" = "Caricamento…";
+"fileProvider.uploadProgress.missingDomainError" = "Impossibile trovare il dominio.";
+
+"getFolderIntent.error.missingPath" = "Non è stato fornito alcun percorso. Fornire un percorso valido per il quale deve essere restituita una cartella.";
+"getFolderIntent.error.noVaultSelected" = "Nessuna cassaforte è stata selezionata.";
+
+"hubAuthentication.title" = "Centrale delle Casseforti";
+"hubAuthentication.accessNotGranted" = "Il tuo dispositivo non è ancora stato autorizzato ad accedere a questa cassaforte. Chiedi al proprietario della cassaforte di autorizzarlo.";
+"hubAuthentication.licenseExceeded" = "La tua istanza Cryptomator Hub ha una licenza non valida. Si prega di informare un amministratore Hub per aggiornare o rinnovare la licenza.";
+"hubAuthentication.deviceRegistration.deviceName.cells.name" = "Nome Del Dispositivo";
+"hubAuthentication.deviceRegistration.deviceName.footer.title" = "Sembra che questo sia il primo accesso alle Centrali delle Casseforti da questo dispositivo. Per poterlo identificare ai fini dell'autorizzazione all'accesso è necessario dare un nome a questo dispositivo.";
+"hubAuthentication.deviceRegistration.accountKey.footer.title" = "La chiave del tuo account è richiesta per accedere da nuove applicazioni o browser. Può essere trovata nel tuo profilo.";
+"hubAuthentication.deviceRegistration.needsAuthorization.alert.title" = "Registrazione del dispositivo Riuscita";
+"hubAuthentication.deviceRegistration.needsAuthorization.alert.message" = "Per accedere al vault, il tuo dispositivo deve essere autorizzato dal proprietario del vault.";
+"hubAuthentication.requireAccountInit.alert.title" = "Azione richiesta";
+"hubAuthentication.requireAccountInit.alert.message" = "Per procedere, completa i passaggi richiesti nel tuo profilo dell'Hub.";
+"hubAuthentication.requireAccountInit.alert.actionButton" = "Vai al profilo";
+
+"intents.saveFile.missingFile" = "Il file fornito non è valido.";
+"intents.saveFile.invalidFolder" = "La cartella fornita non è valida.";
+"intents.saveFile.missingTemporaryFolder" = "Non è stato possibile creare la cartella temporanea.";
+"intents.saveFile.lockedVault" = "Sblocca prima la tua cassaforte per poter usare questa scorciatoia.";
+"intents.saveFile.selectedVaultNotFound" = "La cassaforte selezionata non è stata trovata.";
+
+"keepUnlocked.alert.title" = "Blocco la cassaforte?";
+"keepUnlocked.alert.message" = "Questa modifica richiede che la cassaforte sia bloccata per avere effetto.";
+"keepUnlocked.alert.confirm" = "Conferma e Blocca Ora";
+"keepUnlocked.header" = "Specifica per quanto tempo la cassaforte deve rimanere sbloccata quando inattiva.";
+"keepUnlocked.footer.auto" = "Lasciare che iOS decida significa che Cryptomator può essere terminato in qualsiasi momento per liberare memoria, bloccando automaticamente la cassaforte.";
+"keepUnlocked.footer.on" = "Utilizzando l'opzione selezionata, una copia della chiave deve essere memorizzata nel portachiavi iOS, finchè la cassaforte è sbloccata.";
+"keepUnlockedDuration.auto" = "Lascia decidere a iOS";
+"keepUnlockedDuration.auto.shortDisplayName" = "Auto";
+"keepUnlockedDuration.indefinite" = "Sempre";
+
+"localFileSystemAuthentication.createNewVault.header" = "Nella prossima schermata, scegli la posizione d'archiviazione per la tua nuova cassaforte.";
+"localFileSystemAuthentication.createNewVault.button" = "Seleziona Posizione d'Archiviazione";
+"localFileSystemAuthentication.createNewVault.error.detectedExistingVault" = "Una cassaforte esiste già in questa posizione. Riprova con un'altra posizione di archiviazione.";
+"localFileSystemAuthentication.openExistingVault.header" = "Nella prossima schermata, scegli la cartella della tua cassaforte esistente.";
+"localFileSystemAuthentication.openExistingVault.button" = "Seleziona Cartella della Cassaforte";
+"localFileSystemAuthentication.openExistingVault.error.noVaultFound" = "La cartella selezionata non è una cassaforte. Riprova con una cartella diversa.";
+"localFileSystemAuthentication.info.footer" = "I fornitori di file ingrigiti non supportano le \"cartelle di selezione\". Questa non è una limitazione di Cryptomator.";
+
+"maintenanceModeError.runningCloudTask" = "L'operazione non può essere eseguita perché altre operazioni in background per questa cassaforte devono prima terminare. Riprova più tardi.";
+
+"nameValidation.error.endsWithPeriod" = "Non è possibile utilizzare un nome che termina con uno spazio. Si prega di scegliere un altro nome.";
+"nameValidation.error.endsWithSpace" = "Non è possibile utilizzare un nome che termina con uno spazio. Si prega di scegliere un altro nome.";
+"nameValidation.error.containsIllegalCharacter" = "Non è possibile usare un nome che contiene \"%@\". Scegliere un altro nome.";
+
+"onboarding.title" = "Benvenuto";
+"onboarding.info" = "Grazie per aver scelto Cryptomator per proteggere i tuoi file.\n\nCon Cryptomator, la chiave ai tuoi dati è nelle tue mani. Cryptomator crittografa i tuoi dati rapidamente e facilmente.\n\nQuest'app è totalmente integrata nell'app dei File. Assicurati di abilitare Cryptomator nell'app File in seguito, per accedere alle tue cassaforti.";
+"onboarding.button.continue" = "Continua";
+
+"purchase.beginFreeTrial.alert.title" = "Prova Sbloccata";
+"purchase.expiredTrial" = "Il periodo di prova è scaduto.";
+"purchase.footer.privacyPolicy" = "Informativa sulla privacy";
+"purchase.footer.termsOfUse" = "Termini di utilizzo";
+"purchase.header.feature.familySharing" = "Condivisione familiare";
+"purchase.header.feature.openSource" = "Sviluppo open source";
+"purchase.header.feature.writeAccess" = "Accesso in scrittura alle tue casseforti";
+"purchase.product.donateAndUpgrade" = "Dona e Aggiorna";
+"purchase.product.freeUpgrade" = "Aggiornamento gratuito";
+"purchase.product.lifetimeLicense" = "Licenza a vita";
+"purchase.product.lifetimeLicense.duration" = "una tantum";
+"purchase.product.pricing.free" = "Gratuito";
+"purchase.product.trial" = "30 giorni di prova";
+"purchase.product.trial.expirationDate" = "Data di scadenza: %@";
+"purchase.product.trial.duration" = "per 30 giorni";
+"purchase.product.yearlySubscription" = "Abbonamento annuale";
+"purchase.product.yearlySubscription.duration" = "annuale";
+"purchase.readOnlyMode.alert.title" = "Modalità di sola lettura";
+"purchase.readOnlyMode.alert.message" = "Puoi sbloccare la versione completa di Cryptomator in seguito nelle impostazioni e, per ora, usarla in modalità di sola lettura.";
+"purchase.restorePurchase.button" = "Ripristina Acquisti";
+"purchase.restorePurchase.validTrialFound.alert.title" = "Prova Continuata";
+"purchase.restorePurchase.validTrialFound.alert.message" = "Puoi ora usare la versione completa di Cryptomator per un tempo limitato. La tua prova scade il %@. Dopodiché, le tue cassaforti saranno ancora accessibili in modalità sola lettura.";
+"purchase.restorePurchase.fullVersionFound.alert.title" = "Ripristino Riuscito";
+"purchase.restorePurchase.fullVersionNotFound.alert.title" = "Nessuna Versione Completa";
+"purchase.restorePurchase.fullVersionNotFound.alert.message" = "Non siamo riusciti a trovare una versione completa acquistata precedentemente ripristinabile. Sei pregato di provare un'altra opzione.";
+"purchase.restorePurchase.eligibleForUpgrade.alert.title" = "Idoneo per l'aggiornamento";
+"purchase.restorePurchase.eligibleForUpgrade.alert.message" = "Sembra che si stia cercando di aggiornare da una versione precedente di Cryptomator. In questo caso, si prega di selezionare l'opzione \"Offerta di aggiornamento\".";
+"purchase.retry.button" = "Riprova";
+"purchase.retry.footer" = "Impossibile caricare i prodotti disponibili.";
+"purchase.title" = "Sblocca la Versione Completa";
+"purchase.unlockedFullVersion.message" = "Puoi ora usare la versione completa di Cryptomator. Buona crittografazione!";
+"purchase.unlockedFullVersion.title" = "Grazie";
+"purchase.error.unknown" = "Questo acquisto non è disponibile nell'App Store per un motivo sconosciuto. Riprova più tardi.\n\nSe questo errore persiste, provare a riavviare il dispositivo o scollegare e ricollegare il tuo ID Apple nelle impostazioni di iOS.";
+
+"settings.title" = "Impostazioni";
+"settings.aboutCryptomator" = "Su Cryptomator";
+"settings.aboutCryptomator.title" = "Versione %@ (%@)";
+"settings.cacheSize" = "Dimensione cache";
+"settings.clearCache" = "Svuota Cache";
+"settings.cloudServices" = "Servizi cloud";
+"settings.contact" = "Contatto";
+"settings.debugMode" = "Modalità Debug";
+"settings.debugMode.alert.message" = "In questa modalità, i dati sensibili possono essere scritti in un file di registro sul dispositivo (ad es. nomi di file e percorsi). Password, cookie, ecc. sono esplicitamente esclusi.\n\nRicorda di disabilitare la modalità di debug il prima possibile.";
+"settings.manageSubscriptions" = "Gestisci Abbonamento";
+"settings.rateApp" = "Valuta l’app";
+"settings.sendLogFile" = "Invia File di Registro";
+"settings.shortcutsGuide" = "Guida alle scorciatoie";
+"settings.unlockFullVersion" = "Sblocca la Versione Completa";
+
+"snapshots.fileprovider.file1" = "/Accounting.numbers";
+"snapshots.fileprovider.file2" = "/Presentatione Finale.Key";
+"snapshots.fileprovider.file3" = "/Trailer Prodotto.mov";
+"snapshots.fileprovider.file4" = "/Proposta.docx";
+"snapshots.fileprovider.file5" = "/Report.pdf";
+"snapshots.fileprovider.folder3" = "/Progetto Segreto";
+"snapshots.fileprovider.folder2" = "/Fatture";
+"snapshots.fileprovider.folder1" = "/Certificati";
+"snapshots.main.vault1" = "/Lavoro";
+"snapshots.main.vault2" = "/Famiglia";
+"snapshots.main.vault3" = "/Documenti";
+"snapshots.main.vault4" = "/Viaggio in California";
+
+"s3Authentication.displayName" = "Nome Visualizzato";
+"s3Authentication.accessKey" = "Chiave di accesso";
+"s3Authentication.secretKey" = "Chiave segreta";
+"s3Authentication.existingBucket" = "Secchio Esistente";
+"s3Authentication.endpoint" = "Endpoint";
+"s3Authentication.region" = "Paese";
+"s3Authentication.error.invalidCredentials" = "Credenziali non valide.";
+"s3Authentication.error.invalidEndpoint" = "L'endpoint fornito non corrisponde al formato di un URL.";
+
+"trialStatus.active" = "Attivo";
+"trialStatus.expired" = "Scaduta";
+
+"unlockVault.button.unlock" = "Sblocca";
+"unlockVault.button.unlockVia" = "Sblocca tramite %@";
+"unlockVault.password.footer" = "Inserisci la password per \"%@\".";
+"unlockVault.enableBiometricalUnlock.switch" = "Abilita %@";
+"unlockVault.enableBiometricalUnlock.footer" = "Invece di sbloccare la cassaforte con la password, puoi sbloccarla tramite %@.";
+"unlockVault.evaluatePolicy.reason" = "Sblocca la tua cassaforte";
+"unlockVault.progress" = "Sbloccando…";
+
+"untrustedTLSCertificate.title" = "Certificato TLS non valido";
+"untrustedTLSCertificate.message" = "Il Certificato TLS di \"%@\" non è valido. Desideri fidarti ugualmente?\n\n SHA-256: %@";
+"untrustedTLSCertificate.add" = "Fidati";
+"untrustedTLSCertificate.dismiss" = "Non Fidarti";
+
+"upgrade.title" = "Aggiorna offerta";
+"upgrade.notEligible.alert.title" = "Aggiornamento non riuscito";
+"upgrade.notEligible.alert.message" = "Cryptomator non è riuscito a rilevare una versione precedente installata sul tuo dispositivo. Se l'hai acquistata, riscaricala dall'App Store e riprova.";
+"upgrade.info" = "Grazie per la fiducia verso Cryptomator sin dalla versione uno. Come utente fedele, sei idoneo per un aggiornamento gratuito.";
+
+"urlSession.error.httpError.401" = "Nome utente e/o password errati.";
+"urlSession.error.httpError.403" = "Diritti insufficienti per la risorsa richiesta.";
+"urlSession.error.httpError.404" = "Risorsa richiesta non trovata.";
+"urlSession.error.httpError.405" = "Metodo di richiesta non supportato dalla risorsa di destinazione.";
+"urlSession.error.httpError.409" = "Conflitto di richiesta con lo stato corrente della risorsa di destinazione.";
+"urlSession.error.httpError.412" = "Accesso alla risorsa di destinazione negato.";
+"urlSession.error.httpError.default" = "Connessione di rete non riuscita con codice di stato %ld.";
+"urlSession.error.unexpectedResponse" = "Si è verificata una risposta di rete imprevista.";
+
+"vaultAccountManager.error.vaultAccountAlreadyExists" = "Hai già aggiunto questa cassaforte.";
+
+"vaultDetail.button.changeVaultPassword" = "Modifica la Password";
+"vaultDetail.button.lock" = "Blocca Ora";
+"vaultDetail.button.moveVault" = "Sposta";
+"vaultDetail.button.removeVault" = "Rimuovi dalla Lista della Cassaforte";
+"vaultDetail.button.renameVault" = "Rinomina";
+"vaultDetail.changePassword.footer" = "Scegli una password sicura per la cassaforte e conservala in un posto sicuro.";
+"vaultDetail.disabledBiometricalUnlock.footer" = "Se abiliti %@, la password della cassaforte sarà memorizzata nel portachiavi iOS.";
+"vaultDetail.enabledBiometricalUnlock.footer" = "La password della cassaforte sarà richiesta solo se l'autenticazione %@ non è riuscita.";
+"vaultDetail.info.footer.accessVault" = "Accedi alla cassaforte tramite l'app File.";
+"vaultDetail.info.footer.accountInfo" = "Accesso effettuato come %@ tramite %@.";
+"vaultDetail.keepUnlocked.title" = "Durata Sblocco";
+"vaultDetail.keepUnlocked.footer.off" = "Lo sblocco sarà richiesto quando Cryptomator è stato terminato dall'app File.";
+"vaultDetail.keepUnlocked.footer.limitedDuration" = "Lo sblocco sarà richiesto dopo che la cassaforte sarà rimasta inattiva per %@.";
+"vaultDetail.keepUnlocked.footer.unlimitedDuration" = "Non sarà richiesto alcun sblocco se non bloccata manualmente.";
+"vaultDetail.locked.footer" = "La tua cassaforte è attualmente bloccata.";
+"vaultDetail.moveVault.detectedMasterkey.text" = "Cryptomator ha rilevato una cassaforte esistente in questa posizione.\nPer poter spostare la tua cassaforte, sei pregato di tornare indietro e scegliere una cartella differente.";
+"vaultDetail.moveVault.progress" = "Spostando…";
+"vaultDetail.removeVault.footer" = "Questo rimuoverà solo la cassaforte dall'elenco della cassaforte e non eliminerà alcun file crittografato.";
+"vaultDetail.renameVault.progress" = "Rinominando…";
+"vaultDetail.unlocked.footer" = "La tua cassaforte è attualmente sbloccata nell'app File.";
+"vaultDetail.unlockVault.footer" = "Inserisci la password per \"%@\" per memorizzarla nel portachiavi iOS e per abilitare %@.";
+
+"vaultList.header.title" = "Cassaforti";
+"vaultList.emptyList.message" = "Tocca qui per aggiungere una cassaforte";
+"vaultList.remove.alert.title" = "Rimuovi Cassaforte?";
+"vaultList.remove.alert.message" = "Questo rimuoverà la cassaforte solo dall'elenco di cassaforti. Nessun dato crittografato sarà eliminato. Puoi riaggiungerla in seguito.";
+
+"vaultProviderFactory.error.unsupportedVaultConfig" = "La configurazione della cassaforte non è supportata. Assicurati di stare eseguendo l'ultima versione di Cryptomator.";
+"vaultProviderFactory.error.unsupportedVaultVersion" = "La versione %ld della cassaforte non è supportata. Questa cassaforte è stata creata con una versione più vecchia o più recente di Cryptomator.";
+
+"webDAVAuthentication.httpConnection.alert.title" = "Usare HTTPS?";
+"webDAVAuthentication.httpConnection.alert.message" = "L'utilizzo di HTTP non è sicuro. Si consiglia invece di utilizzare HTTPS. Se conosci i rischi, puoi continuare con HTTP.";
+"webDAVAuthentication.httpConnection.change" = "Cambia in HTTPS";
+"webDAVAuthentication.httpConnection.continue" = "Mantieni HTTP";
+
+"webDAVAuthenticator.error.unsupportedProtocol" = "Il server non sembra essere compatibile con WebDAV. Controlla se hai usato l'URL corretto.";
+"webDAVAuthenticator.error.untrustedCertificate" = "Il certificato di questo server non è attendibile. Potrebbe essere necessario aggiungere nuovamente questa connessione WebDAV.";
+
+"Retry Upload" = "Riprova A Caricare";
+"Clear from Cache" = "Elimina dalla cache";

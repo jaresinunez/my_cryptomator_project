@@ -1,0 +1,305 @@
+/* 
+  Localizable.strings
+  Cryptomator
+
+  Copyright © 2021 Skymatic GmbH. All rights reserved.
+*/
+
+"common.alert.error.title" = "错误";
+"common.alert.attention.title" = "请注意";
+"common.button.cancel" = "取消";
+"common.button.change" = "更改";
+"common.button.choose" = "选择";
+"common.button.clear" = "清除";
+"common.button.close" = "关闭";
+"common.button.confirm" = "确定";
+"common.button.create" = "新建";
+"common.button.createFolder" = "新建文件夹";
+"common.button.done" = "完成";
+"common.button.download" = "下载";
+"common.button.edit" = "编辑";
+"common.button.enable" = "启用";
+"common.button.next" = "下一步";
+"common.button.ok" = "确定";
+"common.button.refresh" = "刷新";
+"common.button.register" = "注册";
+"common.button.remove" = "删除";
+"common.button.retry" = "重试";
+"common.button.signOut" = "退出登录";
+"common.button.verify" = "验证";
+"common.cells.openInFilesApp" = "在文件管理器中打开";
+"common.cells.password" = "密码";
+"common.cells.url" = "URL";
+"common.cells.username" = "用户名";
+"common.footer.learnMore" = "了解更多。";
+"common.hud.authenticating" = "正在验证...";
+
+"accountList.header.title" = "身份验证";
+"accountList.emptyList.message" = "点击此处添加保险库";
+"accountList.signOut.alert.title" = "移除关联的保险库吗？";
+"accountList.signOut.alert.message" = "登出后，所有关联的保险库将从保险库列表中移除。未加密的数据将被删除，您可以重新登录并添加保险库。";
+
+"addVault.title" = "添加保险库";
+"addVault.createNewVault.title" = "新建保险库";
+"addVault.createNewVault.purchase" = "创建新的保险库需要 Cryptomator 完整版。";
+"addVault.createNewVault.setVaultName.header.title" = "为保险库创建一个名称。";
+"addVault.createNewVault.setVaultName.cells.name" = "保险库名称";
+"addVault.createNewVault.setVaultName.error.emptyVaultName" = "保险库名称不能为空。";
+"addVault.createNewVault.chooseCloud.header" = "Cryptomator 应该在哪里存储您保险库的加密文件？";
+"addVault.createNewVault.chooseFolder.error.vaultNameCollision" = "\"%@\" 已存在于此位置，请更换保险库名称或位置。";
+"addVault.createNewVault.detectedMasterkey.text" = "Cryptomator 已在此路径检测到保险库。\n若想创建一个新的保险库，请返回并选择其他路径。";
+"addVault.createNewVault.password.enterPassword.header" = "输入新密码";
+"addVault.createNewVault.password.confirmPassword.header" = "确认新密码。";
+"addVault.createNewVault.password.confirmPassword.alert.title" = "确认密码？";
+"addVault.createNewVault.password.confirmPassword.alert.message" = "重要提示：一旦您忘记密码，将永远无法恢复您的数据。";
+"addVault.createNewVault.password.error.emptyPassword" = "密码不能为空。";
+"addVault.createNewVault.password.error.nonMatchingPasswords" = "密码不匹配。";
+"addVault.createNewVault.password.error.tooShortPassword" = "密码必须至少包含 8 个字符。";
+"addVault.createNewVault.progress" = "正在创建保险库……";
+"addVault.openExistingVault.title" = "打开现有的保险库";
+"addVault.openExistingVault.chooseCloud.header" = "该保险库的路径在哪？";
+"addVault.openExistingVault.detectedMasterkey.text" = "Cryptomator 检测到保险库 \"%@\"。\n您想要添加它吗？";
+"addVault.openExistingVault.detectedMasterkey.add" = "添加此保险库";
+"addVault.openExistingVault.downloadVault.progress" = "正在下载保险库…";
+"addVault.openExistingVault.password.footer" = "输入 \"%@\" 的密码。";
+"addVault.openExistingVault.progress" = "正在添加保险库……";
+"addVault.success.info" = "成功添加保险库 \"%@\"。\n现在可通过文管应用访问它。";
+"addVault.success.footer" = "如果您还没有，请在文管应用中启用 Cryptomator。";
+
+"biometryType.faceID" = "面部 ID";
+"biometryType.touchID" = "触控 ID";
+
+"changePassword.error.invalidOldPassword" = "当前密码错误，请重试。";
+"changePassword.header.currentPassword.title" = "请输入当前密码。";
+"changePassword.header.newPassword.title" = "输入新密码";
+"changePassword.header.newPasswordConfirmation.title" = "确认新密码。";
+"changePassword.progress" = "正在修改密码……";
+
+"chooseFolder.emptyFolder.footer" = "文件夹为空";
+"chooseFolder.createNewFolder.header.title" = "为文件夹创建一个名称。";
+"chooseFolder.createNewFolder.cells.name" = "文件夹名称";
+"chooseFolder.createNewFolder.error.emptyFolderName" = "文件夹名称不能为空。";
+"chooseFolder.createNewFolder.progress" = "正在创建文件夹...";
+
+"cloudProvider.error.itemNotFound" = "找不到 %@\"。";
+"cloudProvider.error.itemAlreadyExists" = "\"%@\" 已存在。";
+"cloudProvider.error.itemTypeMismatch" = "\"%@\" 有一个非预期的文件类型。";
+"cloudProvider.error.parentFolderDoesNotExist" = "父文件夹 \"%@\" 不存在。";
+"cloudProvider.error.pageTokenInvalid" = "无法继续获取目录内容。";
+"cloudProvider.error.quotaInsufficient" = "您的存储空间不足。";
+"cloudProvider.error.unauthorized" = "无法执行未经授权的操作。";
+"cloudProvider.error.noInternetConnection" = "此操作需要网络连接。";
+
+"cloudProviderType.localFileSystem" = "其他文件存储提供商";
+
+"fileProvider.onboarding.title" = "欢迎使用";
+"fileProvider.onboarding.info" = "感谢您选择 Cryptomator 来保护您的文件。若要开始，请前往主应用程序并添加一个保险库。";
+"fileProvider.onboarding.button.openCryptomator" = "打开 Cryptomator";
+"fileProvider.error.biometricalAuthCanceled.title" = "解锁已取消";
+"fileProvider.error.biometricalAuthCanceled.message" = "通过 %@ 解锁失败，请重试。";
+"fileProvider.error.biometricalAuthWrongPassword.title" = "密码错误";
+"fileProvider.error.biometricalAuthWrongPassword.message" = "已保存至 %@ 的密码不正确，请重新输入您的密码以重新启用 %@。";
+"fileProvider.error.defaultLock.title" = "需要解锁";
+"fileProvider.error.defaultLock.message" = "需解锁才能访问和显示您的保险库中的内容。";
+"fileProvider.error.unlockButton" = "解锁";
+"fileProvider.clearFileFromCache.title" = "清除缓存文件";
+"fileProvider.clearFileFromCache.message" = "该操作仅会删除设备中的本地文件，不会删除云存储中的文件";
+"fileProvider.fileImporting.error.missingPremium" = "在 Cryptomator 应用中解锁完整版以获取保险库写入权限";
+"fileProvider.uploadProgress.connecting" = "正在连接…";
+"fileProvider.uploadProgress.message" = "当前进度：%@\n\n若发现上传进度卡住，请重新尝试上传。";
+"fileProvider.uploadProgress.missing" = "无法确定上传进度，它可能仍在后台运行。";
+"fileProvider.uploadProgress.title" = "正在上传…";
+"fileProvider.uploadProgress.missingDomainError" = "找不到域名。";
+
+"getFolderIntent.error.missingPath" = "未提供路径，请提供文件夹应转到的有效路径。";
+"getFolderIntent.error.noVaultSelected" = "未选择任何保险库。";
+
+"hubAuthentication.title" = "Hub 保险库";
+"hubAuthentication.accessNotGranted" = "您的设备尚未授权访问此保险库，请联系保险库所有者。";
+"hubAuthentication.licenseExceeded" = "此 Cryptomator Hub 实例许可证无效，请联系Hub管理员升级或者续订许可证。";
+"hubAuthentication.deviceRegistration.deviceName.cells.name" = "设备名称";
+"hubAuthentication.deviceRegistration.deviceName.footer.title" = "这似乎是设备的首次 Hub 访问。为了识别它以进行访问授权，您需要命名此设备";
+"hubAuthentication.deviceRegistration.accountKey.footer.title" = "从新应用或浏览器登录需要您的账户密钥，您可以在个人中心找到它";
+"hubAuthentication.deviceRegistration.needsAuthorization.alert.title" = "注册设备成功";
+"hubAuthentication.deviceRegistration.needsAuthorization.alert.message" = "要访问保险库，设备需得到保险库所有者的授权。";
+"hubAuthentication.requireAccountInit.alert.title" = "需要操作";
+"hubAuthentication.requireAccountInit.alert.message" = "要继续，请完成 Hub 用户中心所需的步骤";
+"hubAuthentication.requireAccountInit.alert.actionButton" = "前往个人中心";
+
+"intents.saveFile.missingFile" = "提供的文件无效。";
+"intents.saveFile.invalidFolder" = "提供的文件夹无效。";
+"intents.saveFile.missingTemporaryFolder" = "无法创建临时文件夹。";
+"intents.saveFile.lockedVault" = "你需要解锁保险库才能使用此快捷方式。";
+"intents.saveFile.selectedVaultNotFound" = "找不到选定的保险库。";
+
+"keepUnlocked.alert.title" = "锁定保险库？";
+"keepUnlocked.alert.message" = "此更改需要锁定您的保险库才能生效。";
+"keepUnlocked.alert.confirm" = "确认并立即锁定";
+"keepUnlocked.header" = "指定您希望此保险库的解锁状态在空闲时最长持续多久。";
+"keepUnlocked.footer.auto" = "交由 iOS 决定意味着 Cryptomator 可能随时被终止以释放内存，释放操作将自动锁定保险库。";
+"keepUnlocked.footer.on" = "选中此选项后，保险库解锁时会将您的密钥副本在 iOS 钥匙串中存储。";
+"keepUnlockedDuration.auto" = "由 iOS 自动决定";
+"keepUnlockedDuration.auto.shortDisplayName" = "自动";
+"keepUnlockedDuration.indefinite" = "不限时";
+
+"localFileSystemAuthentication.createNewVault.header" = "请在下一屏幕中为您的新保险库选择存储路径。";
+"localFileSystemAuthentication.createNewVault.button" = "选择存储路径";
+"localFileSystemAuthentication.createNewVault.error.detectedExistingVault" = "此位置已存在保险库，请更改路径后重试。";
+"localFileSystemAuthentication.openExistingVault.header" = "请在下一屏幕中定位到现有保险库所在的文件夹。";
+"localFileSystemAuthentication.openExistingVault.button" = "选择保险库所在文件夹";
+"localFileSystemAuthentication.openExistingVault.error.noVaultFound" = "所选文件夹不是保险库，请使用其他文件夹再试一次。";
+"localFileSystemAuthentication.info.footer" = "灰色显示的文件提供者不支持“选择文件夹”。 这并非是 Cryptomator 的限制。";
+
+"maintenanceModeError.runningCloudTask" = "操作无法进行，因为此保险库仍有后台任务在进行，请稍后再试。";
+
+"nameValidation.error.endsWithPeriod" = "您不能使用以句号结尾的名称。请选择另一个名称。";
+"nameValidation.error.endsWithSpace" = "您不能使用一个以空格结尾的名称。请选择另一个名称。";
+"nameValidation.error.containsIllegalCharacter" = "您不能使用包含 \"%@\" 的名称。请选择另一个名称。";
+
+"onboarding.title" = "欢迎使用";
+"onboarding.info" = "感谢您选择 Cryptomator 来保护您的文件。\n\n使用 Cryptomator，您的数据安全完全处于您的掌控。Cryptomator 能够快速和轻松地加密您的数据。\n\n此应用已完全整合到文件应用中。 请确保稍后在文件应用中启用 Cryptomator 以访问您的保险库。";
+"onboarding.button.continue" = "继续";
+
+"purchase.beginFreeTrial.alert.title" = "试用已解锁";
+"purchase.expiredTrial" = "您的试用期已结束。";
+"purchase.footer.privacyPolicy" = "隐私政策";
+"purchase.footer.termsOfUse" = "使用条款";
+"purchase.header.feature.familySharing" = "家庭成员共享";
+"purchase.header.feature.openSource" = "开源开发";
+"purchase.header.feature.writeAccess" = "保险库写入访问权限";
+"purchase.product.donateAndUpgrade" = "捐赠 & 升级";
+"purchase.product.freeUpgrade" = "免费升级";
+"purchase.product.lifetimeLicense" = "终身许可证";
+"purchase.product.lifetimeLicense.duration" = "一次付费";
+"purchase.product.pricing.free" = "免费版";
+"purchase.product.trial" = "30 天免费试用";
+"purchase.product.trial.expirationDate" = "到期时间：%@";
+"purchase.product.trial.duration" = "30 天";
+"purchase.product.yearlySubscription" = "按年订阅";
+"purchase.product.yearlySubscription.duration" = "按年";
+"purchase.readOnlyMode.alert.title" = "只读模式";
+"purchase.readOnlyMode.alert.message" = "您之后可以在设置中解锁 Cryptomator 完整版，在此之前只能使用只读模式。";
+"purchase.restorePurchase.button" = "恢复购买";
+"purchase.restorePurchase.validTrialFound.alert.title" = "仍在试用";
+"purchase.restorePurchase.validTrialFound.alert.message" = "您现在可以在有限的时间内试用完整版的 Cryptomator。您的试用期将在 %@ 过期。 在这之后，您仍然可以在只读模式下访问您的保险库。";
+"purchase.restorePurchase.fullVersionFound.alert.title" = "恢复成功";
+"purchase.restorePurchase.fullVersionNotFound.alert.title" = "未购买完整版";
+"purchase.restorePurchase.fullVersionNotFound.alert.message" = "我们无法找到可供恢复的完整版本。请尝试其他选项。";
+"purchase.restorePurchase.eligibleForUpgrade.alert.title" = "可以升级";
+"purchase.restorePurchase.eligibleForUpgrade.alert.message" = "似乎您正在从 Cryptomator 的旧版本进行升级。在这种情况下，请选择“升级优惠”选项。";
+"purchase.retry.button" = "重试";
+"purchase.retry.footer" = "无法加载可用产品。";
+"purchase.title" = "解锁完整版";
+"purchase.unlockedFullVersion.message" = "您现在可以使用完整版的 Cryptomator。加密快乐！";
+"purchase.unlockedFullVersion.title" = "谢谢";
+"purchase.error.unknown" = "此次在 App Store 中的购买因原因而不可用。请稍后再试。\n\n如果错误继续存在，尝试重启设备或者在 iOS 设置中退出并重新登录您的 Apple ID。";
+
+"settings.title" = "设置";
+"settings.aboutCryptomator" = "关于";
+"settings.aboutCryptomator.title" = "版本 %@ (%@)";
+"settings.cacheSize" = "缓存大小";
+"settings.clearCache" = "清除缓存";
+"settings.cloudServices" = "云服务";
+"settings.contact" = "联系";
+"settings.debugMode" = "调试模式";
+"settings.debugMode.alert.message" = "在此模式下，敏感数据可能会写入您设备上的日志文件 (例如文件名和路径)。密码、cookies等除外。\n\n请记得要尽快关闭调试模式。";
+"settings.manageSubscriptions" = "管理订阅";
+"settings.rateApp" = "给应用评分";
+"settings.sendLogFile" = "发送日志文件";
+"settings.shortcutsGuide" = "快捷方式指南";
+"settings.unlockFullVersion" = "解锁完整版";
+
+"snapshots.fileprovider.file1" = "/会计.numbers";
+"snapshots.fileprovider.file2" = "/最终报告.key";
+"snapshots.fileprovider.file3" = "/产品预告.mov";
+"snapshots.fileprovider.file4" = "/提议.docx";
+"snapshots.fileprovider.file5" = "/报告.pdf";
+"snapshots.fileprovider.folder3" = "/机密项目";
+"snapshots.fileprovider.folder2" = "/发票";
+"snapshots.fileprovider.folder1" = "/证书";
+"snapshots.main.vault1" = "/工作";
+"snapshots.main.vault2" = "/家庭";
+"snapshots.main.vault3" = "/文档";
+"snapshots.main.vault4" = "/加州之旅";
+
+"s3Authentication.displayName" = "显示名称";
+"s3Authentication.accessKey" = "通行密钥";
+"s3Authentication.secretKey" = "私钥";
+"s3Authentication.existingBucket" = "现有 Bucket";
+"s3Authentication.endpoint" = "终端";
+"s3Authentication.region" = "区域";
+"s3Authentication.error.invalidCredentials" = "无效凭证。";
+"s3Authentication.error.invalidEndpoint" = "提供的端点与URL格式不匹配。";
+
+"trialStatus.active" = "进行中";
+"trialStatus.expired" = "已到期";
+
+"unlockVault.button.unlock" = "解锁";
+"unlockVault.button.unlockVia" = "通过 %@ 解锁";
+"unlockVault.password.footer" = "输入 \"%@\" 的密码。";
+"unlockVault.enableBiometricalUnlock.switch" = "启用 %@";
+"unlockVault.enableBiometricalUnlock.footer" = "用 %@ 替代密码解锁保险库。";
+"unlockVault.evaluatePolicy.reason" = "解锁保险库";
+"unlockVault.progress" = "解锁中……";
+
+"untrustedTLSCertificate.title" = "TLS 证书无效";
+"untrustedTLSCertificate.message" = "\"%@\" 的 TLS 证书无效，仍要信任它吗？\n\n SHA-256: %@";
+"untrustedTLSCertificate.add" = "信任";
+"untrustedTLSCertificate.dismiss" = "不信任";
+
+"upgrade.title" = "升级优惠";
+"upgrade.notEligible.alert.title" = "升级失败";
+"upgrade.notEligible.alert.message" = "Cryptomator 未能检测到您设备安装有旧版本。如果您购买过它，请从 App Store 重新下载后再试。";
+"upgrade.info" = "感谢您从第一版开始就信任 Cryptomator。作为忠实用户，您有资格获得免费升级。";
+
+"urlSession.error.httpError.401" = "用户名或密码错误。";
+"urlSession.error.httpError.403" = "对请求的资源权限不足。";
+"urlSession.error.httpError.404" = "找不到请求的资源。";
+"urlSession.error.httpError.405" = "请求方式不受目标资源支持。";
+"urlSession.error.httpError.409" = "请求与目标资源的当前状态冲突。";
+"urlSession.error.httpError.412" = "访问目标资源受阻。";
+"urlSession.error.httpError.default" = "网络连接失败，状态代码 %ld。";
+"urlSession.error.unexpectedResponse" = "非预期的网络响应。";
+
+"vaultAccountManager.error.vaultAccountAlreadyExists" = "您已添加了此保险库";
+
+"vaultDetail.button.changeVaultPassword" = "更改密码";
+"vaultDetail.button.lock" = "立即锁定";
+"vaultDetail.button.moveVault" = "移动";
+"vaultDetail.button.removeVault" = "从保险库列表中移除";
+"vaultDetail.button.renameVault" = "重命名";
+"vaultDetail.changePassword.footer" = "为您的保险库选择一个强壮的密码，确保只有您知道并做妥善保管。";
+"vaultDetail.disabledBiometricalUnlock.footer" = "如果启用 %@，您的保险库密码将存储在 iOS 密钥链中。";
+"vaultDetail.enabledBiometricalUnlock.footer" = "只有当 %@ 身份验证失败时才需要密码。";
+"vaultDetail.info.footer.accessVault" = "通过文件应用访问保险库。";
+"vaultDetail.info.footer.accountInfo" = "已登录账户：%@ (%@).";
+"vaultDetail.keepUnlocked.title" = "解锁持续时间";
+"vaultDetail.keepUnlocked.footer.off" = "Cryptomator 被终止后，通过“文件”应用使用时需要解锁。";
+"vaultDetail.keepUnlocked.footer.limitedDuration" = "您的保险库闲置 %@ 后将需要解锁。";
+"vaultDetail.keepUnlocked.footer.unlimitedDuration" = "除非手动锁定，否则不需要解锁。";
+"vaultDetail.locked.footer" = "您的保险库目前已锁定。";
+"vaultDetail.moveVault.detectedMasterkey.text" = "Cryptomator 检测到当前路径已经存在一个保险库。\n如果您不想对其进行修改，请返回并选择另一个文件夹。";
+"vaultDetail.moveVault.progress" = "正在转移……";
+"vaultDetail.removeVault.footer" = "这只会从保险库列表中移除，并不会删除任何加密文件。";
+"vaultDetail.renameVault.progress" = "正在重命名……";
+"vaultDetail.unlocked.footer" = "您的保险库目前已在文件应用中解锁。";
+"vaultDetail.unlockVault.footer" = "请输入 \"%@\" 的密码以将其存储到 iOS 钥匙串并启用 %@。";
+
+"vaultList.header.title" = "保险库";
+"vaultList.emptyList.message" = "点击此处添加保险库";
+"vaultList.remove.alert.title" = "删除保险库？";
+"vaultList.remove.alert.message" = "此操作只会从保险库列表中删除保险库，并不会删除对应的加密数据。您可以稍后重新添加该保险库。";
+
+"vaultProviderFactory.error.unsupportedVaultConfig" = "不支持保险库配置，请确保您正在运行最新版本的 Cryptomator。";
+"vaultProviderFactory.error.unsupportedVaultVersion" = "不支持的保险库版本 %ld。这可能是使用太新或太旧的 Cryptomator 版本创建的保险库。";
+
+"webDAVAuthentication.httpConnection.alert.title" = "使用 HTTPS?";
+"webDAVAuthentication.httpConnection.alert.message" = "HTTP 不安全，我们建议使用 HTTPS。如果您知道其中风险，您可以继续使用 HTTP。";
+"webDAVAuthentication.httpConnection.change" = "换成 HTTPS";
+"webDAVAuthentication.httpConnection.continue" = "保持 HTTP";
+
+"webDAVAuthenticator.error.unsupportedProtocol" = "服务器似乎不兼容 WebDAV，请检查链接是否正确。";
+"webDAVAuthenticator.error.untrustedCertificate" = "此服务器的证书不受信任，你可能需要重新添加此 WebDAV 连接。";
+
+"Retry Upload" = "重试上传";
+"Clear from Cache" = "清除缓存";

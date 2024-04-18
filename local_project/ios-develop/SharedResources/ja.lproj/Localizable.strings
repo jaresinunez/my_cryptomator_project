@@ -1,0 +1,301 @@
+/* 
+  Localizable.strings
+  Cryptomator
+
+  Copyright © 2021 Skymatic GmbH. All rights reserved.
+*/
+
+"common.alert.error.title" = "エラー";
+"common.alert.attention.title" = "注意";
+"common.button.cancel" = "キャンセル";
+"common.button.change" = "変更";
+"common.button.choose" = "選択";
+"common.button.clear" = "消去";
+"common.button.close" = "閉じる";
+"common.button.confirm" = "確認";
+"common.button.create" = "作成";
+"common.button.createFolder" = "フォルダーを作成";
+"common.button.done" = "完了";
+"common.button.download" = "ダウンロード";
+"common.button.edit" = "編集";
+"common.button.enable" = "有効にする";
+"common.button.next" = "次へ";
+"common.button.ok" = "OK";
+"common.button.refresh" = "更新";
+"common.button.register" = "登録";
+"common.button.remove" = "削除";
+"common.button.retry" = "再試行";
+"common.button.signOut" = "サインアウト";
+"common.button.verify" = "認証";
+"common.cells.openInFilesApp" = "ファイル アプリで開く";
+"common.cells.password" = "パスワード";
+"common.cells.url" = "URL";
+"common.cells.username" = "ユーザー名";
+"common.footer.learnMore" = "さらに詳しく";
+"common.hud.authenticating" = "認証中…";
+
+"accountList.header.title" = "認証";
+"accountList.emptyList.message" = "ここをタップしてアカウントを追加";
+"accountList.signOut.alert.title" = "関連する金庫を削除しますか?";
+"accountList.signOut.alert.message" = "サインアウトすると、関連するすべての金庫が金庫のリストから削除されます。暗号化済みのデータは削除されません。再度ログインすれば再度金庫をあとから追加することができます。";
+
+"addVault.title" = "金庫を追加";
+"addVault.createNewVault.title" = "新しい金庫を作成";
+"addVault.createNewVault.purchase" = "新しい金庫を作成するには、フルバージョンの Cryptomator が必要です。";
+"addVault.createNewVault.setVaultName.header.title" = "金庫の名前を入力してください。";
+"addVault.createNewVault.setVaultName.cells.name" = "金庫の名前";
+"addVault.createNewVault.setVaultName.error.emptyVaultName" = "金庫の名前は空にできません。";
+"addVault.createNewVault.chooseCloud.header" = "金庫と金庫内の暗号化されたファイルをどこに保存しますか？";
+"addVault.createNewVault.chooseFolder.error.vaultNameCollision" = "\"%@\" がすでにこの場所に存在します。別の名前か別の場所を選択してください。";
+"addVault.createNewVault.detectedMasterkey.text" = "Cryptomator がこの場所に既存の金庫を検出しました。\n 新しい金庫を作成するには、戻って違うフォルダーを選択してください。";
+"addVault.createNewVault.password.enterPassword.header" = "新しいパスワードを入力してください。";
+"addVault.createNewVault.password.confirmPassword.header" = "新しいパスワードを確認します";
+"addVault.createNewVault.password.confirmPassword.alert.title" = "パスワードの確認?";
+"addVault.createNewVault.password.confirmPassword.alert.message" = "重要: パスワードを忘れると、データを回復する方法はありません。";
+"addVault.createNewVault.password.error.emptyPassword" = "パスワードは空にできません。";
+"addVault.createNewVault.password.error.nonMatchingPasswords" = "パスワードが一致しません。";
+"addVault.createNewVault.password.error.tooShortPassword" = "パスワードは8文字以上にする必要があります。";
+"addVault.createNewVault.progress" = "金庫を作成しています…";
+"addVault.openExistingVault.title" = "すでにある金庫を開く";
+"addVault.openExistingVault.chooseCloud.header" = "金庫の場所";
+"addVault.openExistingVault.detectedMasterkey.text" = "Cryptomatorが金庫 \"%@\" を検出しました。\nこの金庫を追加しますか?";
+"addVault.openExistingVault.detectedMasterkey.add" = "この金庫を追加";
+"addVault.openExistingVault.downloadVault.progress" = "金庫をダウンロード…";
+"addVault.openExistingVault.password.footer" = "\"%@\" のパスワードを入力してください。";
+"addVault.openExistingVault.progress" = "金庫を追加しています…";
+"addVault.success.info" = "金庫 \"%@\" を正常に追加しました。\nファイル アプリからこの金庫にアクセスしてください。";
+"addVault.success.footer" = "まだ開いていない場合は、ファイル アプリで Cryptomator を有効にしてください。";
+
+"biometryType.faceID" = "Face ID";
+"biometryType.touchID" = "Touch ID";
+
+"changePassword.error.invalidOldPassword" = "現在のパスワードが異なります。もう一度やり直してください。";
+"changePassword.header.currentPassword.title" = "現在のパスワードを入力してください。";
+"changePassword.header.newPassword.title" = "新しいパスワードを入力してください。";
+"changePassword.header.newPasswordConfirmation.title" = "新しいパスワードを確認します";
+"changePassword.progress" = "パスワードを変更しています...";
+
+"chooseFolder.emptyFolder.footer" = "フォルダが空です";
+"chooseFolder.createNewFolder.header.title" = "フォルダーの名前を入力してください。";
+"chooseFolder.createNewFolder.cells.name" = "フォルダー名";
+"chooseFolder.createNewFolder.error.emptyFolderName" = "フォルダ名は空にできません。";
+"chooseFolder.createNewFolder.progress" = "フォルダーを作成中...";
+
+"cloudProvider.error.itemNotFound" = "\"%@\" が見つかりませんでした。";
+"cloudProvider.error.itemAlreadyExists" = "\"%@\" が既に存在します。";
+"cloudProvider.error.itemTypeMismatch" = "\"%@\" に予期しないファイルがあります。";
+"cloudProvider.error.parentFolderDoesNotExist" = "親フォルダ \"%@\" が存在しません。";
+"cloudProvider.error.pageTokenInvalid" = "ディレクトリの内容を取得できませんでした。";
+"cloudProvider.error.quotaInsufficient" = "ストレージの容量が不足しています。";
+"cloudProvider.error.unauthorized" = "権限のない操作を実行できません。";
+"cloudProvider.error.noInternetConnection" = "この操作にはインターネット接続が必要です。";
+
+"cloudProviderType.localFileSystem" = "その他のファイル プロバイダー";
+
+"fileProvider.onboarding.title" = "ようこそ";
+"fileProvider.onboarding.info" = "ファイルを保護するために Cryptomator を選んでいただきありがとうございます。はじめるには、アプリから金庫を追加してください。";
+"fileProvider.onboarding.button.openCryptomator" = "Cryptomator を開く";
+"fileProvider.error.biometricalAuthCanceled.title" = "ロック解除がキャンセルされました";
+"fileProvider.error.biometricalAuthCanceled.message" = "%@ 経由のロック解除に失敗しました。もう一度やり直してください。";
+"fileProvider.error.biometricalAuthWrongPassword.title" = "パスワードが正しくありません";
+"fileProvider.error.biometricalAuthWrongPassword.message" = "%@ に保存されたパスワードが間違っています。 %@ を再度有効にするには、再度パスワードを入力してください。";
+"fileProvider.error.defaultLock.title" = "ロック解除が必要です";
+"fileProvider.error.defaultLock.message" = "保管庫の内容にアクセスして表示するには、ロックを解除する必要があります。";
+"fileProvider.error.unlockButton" = "解錠";
+"fileProvider.clearFileFromCache.title" = "キャッシュからファイルをクリア";
+"fileProvider.clearFileFromCache.message" = "これにより、デバイスからローカルファイルが削除されるだけで、クラウド内のファイルは削除されません。";
+"fileProvider.fileImporting.error.missingPremium" = "Cryptomatorアプリで金庫の書き込み許可を得るために完全版のロックを解除してください。";
+"fileProvider.uploadProgress.connecting" = "接続する...";
+"fileProvider.uploadProgress.message" = "現在の進行：%@\n\nアップロードの進行状況が止まっていることに気付いた場合は、アップロードを再試行できます。";
+"fileProvider.uploadProgress.missing" = "進捗状況を確認できませんでした。 まだバックグラウンドで実行されている可能性があります。";
+"fileProvider.uploadProgress.title" = "アップロード中";
+"fileProvider.uploadProgress.missingDomainError" = "ドメインが見つかりませんでした。";
+
+"getFolderIntent.error.missingPath" = "パスがありません。妥当なフォルダーのパスを指定してください。";
+"getFolderIntent.error.noVaultSelected" = "金庫は選択されていません。";
+"hubAuthentication.accessNotGranted" = "お使いのデバイスはまだこの金庫にアクセスする権限がありません。金庫のオーナーに権限を与えてもらってください。";
+"hubAuthentication.licenseExceeded" = "Cryptomator Hub インスタンスのライセンスが無効です。ライセンスをアップグレードまたは更新するには、Hub の管理者にご連絡ください。";
+"hubAuthentication.deviceRegistration.deviceName.cells.name" = "デバイス名";
+"hubAuthentication.deviceRegistration.accountKey.footer.title" = "アカウントキーは新しいアプリやブラウザからログインするために必要です。プロフィール中に記載されています。";
+"hubAuthentication.deviceRegistration.needsAuthorization.alert.message" = "金庫にアクセスするためには，金庫のオーナーが端末を認証する必要があります。";
+"hubAuthentication.requireAccountInit.alert.title" = "要対応";
+"hubAuthentication.requireAccountInit.alert.message" = "続行するにはHubユーザープロフィールで必要な手順を完了してください。";
+"hubAuthentication.requireAccountInit.alert.actionButton" = "プロフィールへ移動";
+
+"intents.saveFile.missingFile" = "指定されたファイルはだめです。";
+"intents.saveFile.invalidFolder" = "指定されたフォルダーはだめです。";
+"intents.saveFile.missingTemporaryFolder" = "臨時フォルダーの作成ができませんでした。";
+"intents.saveFile.lockedVault" = "このショートカットを使用するためにまず金庫を解錠してください。";
+"intents.saveFile.selectedVaultNotFound" = "選択した金庫は見つかりませんでした。";
+
+"keepUnlocked.alert.title" = "金庫を施錠しますか？";
+"keepUnlocked.alert.message" = "この変更を適用するには金庫を施錠する必要があります。";
+"keepUnlocked.alert.confirm" = "施錠して適用";
+"keepUnlocked.header" = "アイドル時にこの金庫を解錠しておく時間を指定します。";
+"keepUnlocked.footer.auto" = "iOSによって決定させることは、Cryptomatorがメモリを解放するためにいつでも終了させられ、保管庫がロックされることを意味します。";
+"keepUnlocked.footer.on" = "選択したオプションを使用において、金庫が解錠されている限り、鍵のコピーをiOSキーチェーンに保存する必要があります。";
+"keepUnlockedDuration.auto" = "iOSに委ねる";
+"keepUnlockedDuration.auto.shortDisplayName" = "自動";
+"keepUnlockedDuration.indefinite" = "無期限";
+
+"localFileSystemAuthentication.createNewVault.header" = "次の画面で、新しい金庫の保存場所を選択してください。";
+"localFileSystemAuthentication.createNewVault.button" = "ストレージの場所を選択";
+"localFileSystemAuthentication.createNewVault.error.detectedExistingVault" = "この場所には既に金庫が存在します。別の保存先でもう一度お試しください。";
+"localFileSystemAuthentication.openExistingVault.header" = "次の画面で、既存の金庫の保存場所を選択してください。";
+"localFileSystemAuthentication.openExistingVault.button" = "金庫のフォルダーを選択";
+"localFileSystemAuthentication.openExistingVault.error.noVaultFound" = "選択したフォルダは金庫ではありません。別のフォルダでもう一度やり直してください。";
+"localFileSystemAuthentication.info.footer" = "グレーアウトされたファイルプロバイダは「フォルダを選ぶ」をサポートしていません。これはCryptomatorの制限ではありません。";
+
+"maintenanceModeError.runningCloudTask" = "この金庫に対する他のバックグラウンド操作を最初に完了する必要があるため、操作を実行できません。あとでもう一度やり直してください。";
+
+"nameValidation.error.endsWithPeriod" = "ピリオドで終わる名前は使用できません。別の名前を選択してください。";
+"nameValidation.error.endsWithSpace" = "スペースで終わる名前は使用できません。別の名前を選択してください。";
+"nameValidation.error.containsIllegalCharacter" = "\"%@\" を含む名前は使用できません。別の名前を選択してください。";
+
+"onboarding.title" = "ようこそ";
+"onboarding.info" = "あなたのファイルを保護するためにCryptomatorを選んでいただきありがとうございます。\n\nCryptomatorによりあなたはデータへの鍵を自分の手中にします。Cryptomatorはあなたのデータを素早く簡単に暗号化します。\n\nこのアプリはファイルアプリとして完全に統合されています。後でファイルアプリでCryptomatorを有効にして保管庫へのアクセスをご確認ください。";
+"onboarding.button.continue" = "続行";
+
+"purchase.beginFreeTrial.alert.title" = "試用版をアンロックしました";
+"purchase.expiredTrial" = "試用版の有効期限が切れました。";
+"purchase.footer.privacyPolicy" = "プライバシーポリシー";
+"purchase.footer.termsOfUse" = "利用規約";
+"purchase.header.feature.familySharing" = "ファミリー共有";
+"purchase.header.feature.openSource" = "オープンソース開発";
+"purchase.header.feature.writeAccess" = "金庫への書き込みアクセス";
+"purchase.product.donateAndUpgrade" = "寄付とアップグレード";
+"purchase.product.freeUpgrade" = "無料アップグレード";
+"purchase.product.lifetimeLicense" = "永続ライセンス";
+"purchase.product.lifetimeLicense.duration" = "ワンタイム";
+"purchase.product.pricing.free" = "無料";
+"purchase.product.trial" = "30日間のトライアル";
+"purchase.product.trial.expirationDate" = "有効期限: %@";
+"purchase.product.trial.duration" = "30日間";
+"purchase.product.yearlySubscription" = "年間サブスクリプション";
+"purchase.product.yearlySubscription.duration" = "毎年";
+"purchase.readOnlyMode.alert.title" = "読み取り専用モード";
+"purchase.readOnlyMode.alert.message" = "今は読み取り専用モードで使用することができます。後で設定から Cryptomator のフルバージョンにすることができます。";
+"purchase.restorePurchase.button" = "購入情報の復元";
+"purchase.restorePurchase.validTrialFound.alert.title" = "試用が継続されました";
+"purchase.restorePurchase.validTrialFound.alert.message" = "Cryptomatorのフルバージョンを期間限定で使用できるようになりました。試用期間は %@までです。 その後も、金庫は読み取り専用モードでアクセスすることができます。";
+"purchase.restorePurchase.fullVersionFound.alert.title" = "正常に復元されました";
+"purchase.restorePurchase.fullVersionNotFound.alert.title" = "フルバージョンではありません";
+"purchase.restorePurchase.fullVersionNotFound.alert.message" = "以前購入したフルバージョンが見つかりませんでした。別のオプションをお試しください。";
+"purchase.restorePurchase.eligibleForUpgrade.alert.title" = "アップグレード可能";
+"purchase.restorePurchase.eligibleForUpgrade.alert.message" = "古いバージョンの Cryptomator からアップグレードしようとしているようです。その場合は、代わりに「Upgrade Offer」オプションを選択してください。";
+"purchase.retry.button" = "再試行";
+"purchase.retry.footer" = "利用可能な製品を読み込めませんでした。";
+"purchase.title" = "フル バージョンのロックを解除";
+"purchase.unlockedFullVersion.message" = "これでCryptomatorのフルバージョンを使用できます。";
+"purchase.unlockedFullVersion.title" = "ありがとうございます";
+"purchase.error.unknown" = "この購入は不明な理由によりApp Storeで利用できません。後でもう一度お試しください。\n\nこのエラーが解決しない場合、 デバイスを再起動するか、iOS の設定で Apple ID にサインアウトしてください。";
+
+"settings.title" = "設定";
+"settings.aboutCryptomator" = "Cryptomator について";
+"settings.aboutCryptomator.title" = "バージョン %@ (%@)";
+"settings.cacheSize" = "キャッシュのサイズ";
+"settings.clearCache" = "キャッシュを削除する";
+"settings.cloudServices" = "クラウド サービス";
+"settings.contact" = "連絡先";
+"settings.debugMode" = "デバッグ モード";
+"settings.debugMode.alert.message" = "このモードでは、デバイスのログファイルに機密情報が書き込まれることがあります(例: ファイル名やパス)。パスワードや cookie 等は除外されます。\n\n できるだけ早くデバッグ モードを無効化をすることを忘れないでください。";
+"settings.manageSubscriptions" = "サブスクリプションの管理";
+"settings.rateApp" = "アプリを評価する";
+"settings.sendLogFile" = "ログ ファイルを送信";
+"settings.shortcutsGuide" = "ショートカットのガイド";
+"settings.unlockFullVersion" = "フル バージョンのロックを解除";
+
+"snapshots.fileprovider.file1" = "/Accounting.numbers";
+"snapshots.fileprovider.file2" = "/Final Presentation.key";
+"snapshots.fileprovider.file3" = "/Product Trailer.mov";
+"snapshots.fileprovider.file4" = "/Proposal.docx";
+"snapshots.fileprovider.file5" = "/Report.pdf";
+"snapshots.fileprovider.folder3" = "/Secret Project";
+"snapshots.fileprovider.folder2" = "/Invoices";
+"snapshots.fileprovider.folder1" = "/Certificates";
+"snapshots.main.vault1" = "/Work";
+"snapshots.main.vault2" = "/Family";
+"snapshots.main.vault3" = "/Documents";
+"snapshots.main.vault4" = "/Trip to California";
+
+"s3Authentication.displayName" = "表示名";
+"s3Authentication.accessKey" = "アクセスキー";
+"s3Authentication.secretKey" = "シークレットキー";
+"s3Authentication.existingBucket" = "既存のバケット";
+"s3Authentication.endpoint" = "エンドポイント";
+"s3Authentication.region" = "リージョン";
+"s3Authentication.error.invalidCredentials" = "資格が無効です。";
+"s3Authentication.error.invalidEndpoint" = "指定されたエンドポイントは URL の形式と一致しません。";
+
+"trialStatus.active" = "有効";
+"trialStatus.expired" = "期限切れ";
+
+"unlockVault.button.unlock" = "解錠";
+"unlockVault.button.unlockVia" = "%@ で解錠";
+"unlockVault.password.footer" = "\"%@\" のパスワードを入力してください。";
+"unlockVault.enableBiometricalUnlock.switch" = "%@ を有効にする";
+"unlockVault.enableBiometricalUnlock.footer" = "金庫をパスワードで解錠する代わりに、%@ を利用して解錠できます。";
+"unlockVault.evaluatePolicy.reason" = "金庫を解錠する";
+"unlockVault.progress" = "解錠中…";
+
+"untrustedTLSCertificate.title" = "不正な TLS 証明書です";
+"untrustedTLSCertificate.message" = "\"%@\" の TLS 証明書が無効です。それでも信頼しますか?\n\n SHA-256: %@";
+"untrustedTLSCertificate.add" = "信頼する";
+"untrustedTLSCertificate.dismiss" = "信頼しない";
+
+"upgrade.title" = "アップグレードオファー";
+"upgrade.notEligible.alert.title" = "アップグレードできませんでした";
+"upgrade.notEligible.alert.message" = "Cryptomatorは、お使いのデバイスにインストールされている古いバージョンを検出できませんでした。すでに購入していた場合はApp Storeから再度ダウンロードしてもう一度お試しください。";
+"upgrade.info" = "バージョン1以来、Cryptomatorを信頼していただきありがとうございます。ロイヤル・ユーザーとして、あなたは無料のアップグレードの対象となります。";
+
+"urlSession.error.httpError.401" = "ユーザー名またはパスワードが間違っています。";
+"urlSession.error.httpError.403" = "リクエストされたリソースの権限が不足しています。";
+"urlSession.error.httpError.404" = "リクエストされたリソースが見つかりませんでした。";
+"urlSession.error.httpError.405" = "リクエストしたリクエストは対象のリソースによってサポートされていません。";
+"urlSession.error.httpError.409" = "対称のリソースの現在の状態とリクエストが競合します。";
+"urlSession.error.httpError.412" = "対象のリソースへのアクセスが拒否されました。";
+"urlSession.error.httpError.default" = "ステータス コード %ld でネットワーク接続に失敗しました。";
+"urlSession.error.unexpectedResponse" = "予期しないネットワーク応答が発生しました。";
+
+"vaultAccountManager.error.vaultAccountAlreadyExists" = "この金庫はすでに追加されています。";
+
+"vaultDetail.button.changeVaultPassword" = "パスワードの変更";
+"vaultDetail.button.lock" = "今すぐ施錠";
+"vaultDetail.button.moveVault" = "移動";
+"vaultDetail.button.removeVault" = "金庫のリストから削除";
+"vaultDetail.button.renameVault" = "名前を変更";
+"vaultDetail.changePassword.footer" = "安全な場所に保管しておくための強力なパスワードを選択してください。";
+"vaultDetail.disabledBiometricalUnlock.footer" = "%@ を有効にすると、金庫のパスワードが iOS Keychain に保存されるようになります。";
+"vaultDetail.enabledBiometricalUnlock.footer" = "金庫のパスワードは %@ の認証に失敗したときのみ必要になります。";
+"vaultDetail.info.footer.accessVault" = "ファイル アプリから金庫にアクセス";
+"vaultDetail.info.footer.accountInfo" = "%@ を利用して %@ としてログイン";
+"vaultDetail.keepUnlocked.title" = "解錠する時間";
+"vaultDetail.keepUnlocked.footer.off" = "Cryptomatorがファイルアプリによって終了された場合、ロック解除が必要になります。";
+"vaultDetail.keepUnlocked.footer.limitedDuration" = "金庫が%@ 以上アイドル状態になった場合、ロック解除が必要になります。";
+"vaultDetail.keepUnlocked.footer.unlimitedDuration" = "手動で施錠しない限り解錠は必要ありません。";
+"vaultDetail.locked.footer" = "金庫が施錠されています。";
+"vaultDetail.moveVault.detectedMasterkey.text" = "Cryptomator がこの場所に既存の金庫を検出しました。\n 金庫を移動するには、戻って違うフォルダーを選択してください。";
+"vaultDetail.moveVault.progress" = "移動中…";
+"vaultDetail.removeVault.footer" = "金庫のリストから金庫が削除されます。暗号化されたファイルは削除されません。";
+"vaultDetail.renameVault.progress" = "名前を変更しています…";
+"vaultDetail.unlocked.footer" = "金庫はファイル アプリで解錠されています。";
+"vaultDetail.unlockVault.footer" = "iOS keychain に保存し %@ を有効にするには \"%@\" のパスワードを入力してください。";
+
+"vaultList.header.title" = "金庫";
+"vaultList.emptyList.message" = "ここをタップして金庫を追加";
+"vaultList.remove.alert.title" = "金庫を削除しますか?";
+"vaultList.remove.alert.message" = "金庫のリストからのみ金庫が削除されます。暗号化されたデータは削除されません。あとから金庫を再追加できます。";
+
+"vaultProviderFactory.error.unsupportedVaultConfig" = "サポートされない金庫の構成です。最新の Cryptomator を実行していることを確認してください。";
+"vaultProviderFactory.error.unsupportedVaultVersion" = "金庫のバージョン %ld はサポートされていません。この金庫は、現在のものより古いか新しいバージョンの Cryptomator で作成されています。";
+
+"webDAVAuthentication.httpConnection.alert.title" = "HTTPS を使用しますか？";
+"webDAVAuthentication.httpConnection.alert.message" = "HTTP は安全ではありません。代わりに HTTPS を使用することを推奨します。リスクを承知の上であれば HTTP をご使用ください。";
+"webDAVAuthentication.httpConnection.change" = "HTTPS を使用";
+"webDAVAuthentication.httpConnection.continue" = "HTTP を保持";
+
+"webDAVAuthenticator.error.unsupportedProtocol" = "サーバーに WebDAV との互換性がありません。正しい URL を使用しているか確認してください";
+"webDAVAuthenticator.error.untrustedCertificate" = "このサーバーの証明書は信頼されていません。WebDAV 接続を再追加する必要があります。";
+
+"Retry Upload" = "アップロードを再試行";
+"Clear from Cache" = "キャッシュからクリア";

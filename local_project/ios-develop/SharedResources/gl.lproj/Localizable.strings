@@ -1,0 +1,26 @@
+"common.button.cancel" = "Cancelar";
+"common.button.change" = "Cambiar";
+"common.button.choose" = "Seleccionar";
+"common.button.close" = "Pechar";
+"common.button.create" = "Crear";
+"common.button.done" = "Feito";
+"common.button.edit" = "Editar";
+"common.button.next" = "Seguinte";
+"common.button.refresh" = "Actualizar";
+"common.button.remove" = "Eliminar";
+"common.button.retry" = "Tentar de novo";
+"common.cells.url" = "URL";
+"common.cells.username" = "Nome de usuario";
+"addVault.createNewVault.password.confirmPassword.alert.message" = "IMPORTANTE: Se esqueces o teu contrasinal, non será posíbel recuperar os teus datos.";
+"purchase.retry.button" = "Tentar de novo";
+
+"settings.title" = "Axustes";
+
+"s3Authentication.displayName" = "Nome a mostrar";
+"s3Authentication.accessKey" = "Chave de acceso";
+"s3Authentication.secretKey" = "Chave secreta";
+"s3Authentication.existingBucket" = "Bucket existente";
+"s3Authentication.endpoint" = "Endpoint";
+"s3Authentication.region" = "Rexión";
+"vaultDetail.button.moveVault" = "Mover";
+"vaultDetail.button.renameVault" = "Cambiar o nome";

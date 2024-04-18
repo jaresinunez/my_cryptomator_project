@@ -1,0 +1,44 @@
+"common.button.cancel" = "Odustani";
+"common.button.change" = "Izmjeni";
+"common.button.choose" = "Odaberi";
+"common.button.close" = "Zatvori";
+"common.button.confirm" = "Potvrdi";
+"common.button.create" = "Dodaj";
+"common.button.createFolder" = "Napravi folder";
+"common.button.done" = "Gotovo";
+"common.button.edit" = "Izmjeni";
+"common.button.next" = "Sljedeće";
+"common.button.ok" = "OK";
+"common.button.remove" = "Ukloni";
+"common.button.signOut" = "Odjavi se";
+"common.cells.password" = "Šifra";
+"common.cells.url" = "URL adresa";
+"common.cells.username" = "Korisničko ime";
+"common.footer.learnMore" = "Saznaj više.";
+
+"addVault.title" = "Dodaj sef";
+"addVault.createNewVault.title" = "Kreiraj novi sef";
+"addVault.createNewVault.setVaultName.cells.name" = "Ime sefa";
+"addVault.createNewVault.chooseCloud.header" = "Gdje bi Cryptomator trebao pohraniti enkriptovane fajlove iz vaseg sefa?";
+"addVault.openExistingVault.title" = "Otvori postojeći sef";
+"addVault.openExistingVault.detectedMasterkey.add" = "Dodajte ovaj sef";
+
+"chooseFolder.emptyFolder.footer" = "Folder je prazan";
+
+"fileProvider.onboarding.title" = "Dobrodošli,";
+"fileProvider.onboarding.info" = "Hvala što ste izabrali Cryptomator za zaštitu podataka. Za početak idite na glavnu aplikaciju i dodajte sef.";
+"fileProvider.onboarding.button.openCryptomator" = "Otvori Cryptomator";
+"fileProvider.error.unlockButton" = "Otključaj";
+
+"onboarding.title" = "Dobrodošli,";
+
+"settings.title" = "Postavke";
+
+"unlockVault.button.unlock" = "Otključaj";
+"untrustedTLSCertificate.add" = "Povjerenje";
+"untrustedTLSCertificate.dismiss" = "Ne vjeruj";
+
+"vaultDetail.button.changeVaultPassword" = "Promjeni lozinku";
+
+"vaultList.header.title" = "Sef";
+"vaultList.emptyList.message" = "Kliknite ovdje da dodate sef";

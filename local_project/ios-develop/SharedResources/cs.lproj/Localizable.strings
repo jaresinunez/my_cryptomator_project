@@ -1,0 +1,298 @@
+/* 
+  Localizable.strings
+  Cryptomator
+
+  Copyright © 2021 Skymatic GmbH. All rights reserved.
+*/
+
+"common.alert.error.title" = "Chyba";
+"common.alert.attention.title" = "Upozornění";
+"common.button.cancel" = "Zrušit";
+"common.button.change" = "Změnit";
+"common.button.choose" = "Vybrat";
+"common.button.clear" = "Smazat";
+"common.button.close" = "Zavřít";
+"common.button.confirm" = "Potvrdit";
+"common.button.create" = "Vytvořit";
+"common.button.createFolder" = "Vytvořit složku";
+"common.button.done" = "Hotovo";
+"common.button.download" = "Stáhnout";
+"common.button.edit" = "Upravit";
+"common.button.enable" = "Povolit";
+"common.button.next" = "Další";
+"common.button.ok" = "OK";
+"common.button.refresh" = "Načíst znovu";
+"common.button.register" = "Registrovat";
+"common.button.remove" = "Odstranit";
+"common.button.retry" = "Opakovat";
+"common.button.signOut" = "Odhlásit se";
+"common.button.verify" = "Ověřit";
+"common.cells.openInFilesApp" = "Otevřít v aplikaci Soubory";
+"common.cells.password" = "Heslo";
+"common.cells.url" = "URL";
+"common.cells.username" = "Uživatel";
+"common.footer.learnMore" = "Více informací.";
+"common.hud.authenticating" = "Ověřování…";
+
+"accountList.header.title" = "Ověření";
+"accountList.emptyList.message" = "Klepnutím sem přidáte účet";
+"accountList.signOut.alert.title" = "Odstranit přidružené trezory?";
+"accountList.signOut.alert.message" = "Odhlášením budou všechny přidružené trezory odstraněny ze seznamu trezorů. Žádná zašifrovaná data nebudou odstraněna. Můžete se znovu přihlásit a trezory znovu přidat později.";
+
+"addVault.title" = "Přidat trezor";
+"addVault.createNewVault.title" = "Vytvořit nový trezor";
+"addVault.createNewVault.purchase" = "Vytvoření nového trezoru vyžaduje plnou verzi Cryptomatoru.";
+"addVault.createNewVault.setVaultName.header.title" = "Zvolte jméno trezoru.";
+"addVault.createNewVault.setVaultName.cells.name" = "Název trezoru";
+"addVault.createNewVault.setVaultName.error.emptyVaultName" = "Je potřeba zadat název trezoru.";
+"addVault.createNewVault.chooseCloud.header" = "Kde by měl Cryptomator ukládat šifrované soubory vašeho trezoru?";
+"addVault.createNewVault.chooseFolder.error.vaultNameCollision" = "\"%@\" již v tomtom umístění existuje. Vyberte jiný trezor nebo umístění.";
+"addVault.createNewVault.detectedMasterkey.text" = "Cryptomator v tomto umístění zjistil existující trezor.\nChcete-li vytvořit nový trezor, vraťte se zpět a vyberte jinou složku.";
+"addVault.createNewVault.password.enterPassword.header" = "Zadejte nové heslo.";
+"addVault.createNewVault.password.confirmPassword.header" = "Potvrď nové heslo.";
+"addVault.createNewVault.password.confirmPassword.alert.title" = "Potvrdit heslo?";
+"addVault.createNewVault.password.confirmPassword.alert.message" = "DŮLEŽITÉ: Pokud zapomenete své heslo, neexistuje způsob jak obnovit vaše data.";
+"addVault.createNewVault.password.error.emptyPassword" = "Heslo nemůže zůstat nevyplněno.";
+"addVault.createNewVault.password.error.nonMatchingPasswords" = "Hesla se neshodují.";
+"addVault.createNewVault.password.error.tooShortPassword" = "Heslo musí obsahovat alespoň 8 znaků.";
+"addVault.createNewVault.progress" = "Vytváření trezoru…";
+"addVault.openExistingVault.title" = "Otevřít existující trezor";
+"addVault.openExistingVault.chooseCloud.header" = "Kde je trezor umístěn?";
+"addVault.openExistingVault.detectedMasterkey.text" = "Cryptomator detekoval trezor \"%@\".\nChcete přidat tento trezor?";
+"addVault.openExistingVault.detectedMasterkey.add" = "Přidat tento trezor";
+"addVault.openExistingVault.password.footer" = "Zadejte heslo pro \"%@\".";
+"addVault.openExistingVault.progress" = "Přidávání trezoru…";
+"addVault.success.info" = "Úspěšně přidán trezor \"%@\".\nPřistupujte k tomuto trezoru prostřednictvím aplikace Soubory.";
+"addVault.success.footer" = "Pokud jste již neučinili, povolte Cryptomator v aplikaci Soubory.";
+
+"biometryType.faceID" = "Face ID";
+"biometryType.touchID" = "Touch ID";
+
+"changePassword.error.invalidOldPassword" = "Nesprávné heslo. Prosím, zkus to znovu.";
+"changePassword.header.currentPassword.title" = "Zadejte stávající heslo.";
+"changePassword.header.newPassword.title" = "Zadejte nové heslo.";
+"changePassword.header.newPasswordConfirmation.title" = "Potvrď nové heslo.";
+"changePassword.progress" = "Změna hesla…";
+
+"chooseFolder.emptyFolder.footer" = "Složka je prázdná";
+"chooseFolder.createNewFolder.header.title" = "Zvolte název složky.";
+"chooseFolder.createNewFolder.cells.name" = "Název složky";
+"chooseFolder.createNewFolder.error.emptyFolderName" = "Název složky nemůže být prázdný.";
+"chooseFolder.createNewFolder.progress" = "Vytváření složky…";
+
+"cloudProvider.error.itemNotFound" = "\"%@\" nebylo nalezeno.";
+"cloudProvider.error.itemAlreadyExists" = "\"%@\" již existuje.";
+"cloudProvider.error.itemTypeMismatch" = "\"%@\" má neočekávaný typ položky.";
+"cloudProvider.error.parentFolderDoesNotExist" = "Nadřazená složka \"%@\" neexistuje.";
+"cloudProvider.error.pageTokenInvalid" = "Načítání obsahu adresáře nemůže pokračovat.";
+"cloudProvider.error.quotaInsufficient" = "Vaše úložiště nemá dostatek místa.";
+"cloudProvider.error.unauthorized" = "Nelze provést neautorizovanou operaci.";
+"cloudProvider.error.noInternetConnection" = "Pro tuto operaci je nutné připojení k internetu.";
+
+"cloudProviderType.localFileSystem" = "Další poskytovatel souborů";
+
+"fileProvider.onboarding.title" = "Vítejte";
+"fileProvider.onboarding.info" = "Děkujeme, že jste si vybrali Cryptomator pro ochranu vašich souborů. Chcete-li začít, přejděte do hlavní aplikace a přidejte trezor.";
+"fileProvider.onboarding.button.openCryptomator" = "Otevřít Cryptomator";
+"fileProvider.error.biometricalAuthCanceled.title" = "Odemknutí zrušeno";
+"fileProvider.error.biometricalAuthCanceled.message" = "Odemknutí pomocí %@ nebylo úspěšné. Zkuste to prosím znovu.";
+"fileProvider.error.biometricalAuthWrongPassword.title" = "Nesprávné heslo";
+"fileProvider.error.biometricalAuthWrongPassword.message" = "Heslo, které bylo uloženo pro %@ je nesprávné. Zkuste to prosím znovu a zadejte heslo pro opětovné povolení %@.";
+"fileProvider.error.defaultLock.title" = "Požadováno odemknutí";
+"fileProvider.error.defaultLock.message" = "Pro přístup a zobrazení obsahu vašeho trezoru musí být trezor odemčen.";
+"fileProvider.error.unlockButton" = "Odemknout";
+"fileProvider.clearFileFromCache.title" = "Smazat soubor z mezipaměti";
+"fileProvider.clearFileFromCache.message" = "Pouze smaže soubor z Vašeho zařízení a ponechá soubor v cloudu.";
+"fileProvider.fileImporting.error.missingPremium" = "Odemkněte plnou verzi aplikace Cryptomator a získejte přístup k zápisu do vašeho trezoru.";
+"fileProvider.uploadProgress.connecting" = "Připojování…";
+"fileProvider.uploadProgress.message" = "Aktuální průběh: %@\n\nPokud se domníváte, že proces nahrávání je zaseknutý, můžete zkusit nahrávání znovu.";
+"fileProvider.uploadProgress.missing" = "Průběh nebylo možné zjistit. Může nadále pokračovat na pozadí.";
+"fileProvider.uploadProgress.title" = "Nahrávání…";
+"fileProvider.uploadProgress.missingDomainError" = "Doména nebyla nalezena.";
+
+"getFolderIntent.error.missingPath" = "Nebyla zadána žádná cesta. Uveďte prosím platnou cestu, pro kterou má být složka vrácena.";
+"getFolderIntent.error.noVaultSelected" = "Nebyl vybrán žádný trezor.";
+"hubAuthentication.accessNotGranted" = "Vaše zařízení dosud nebylo oprávněno k přístupu k tomuto trezoru. Požádejte vlastníka trezoru, aby jej autorizoval.";
+"hubAuthentication.deviceRegistration.deviceName.cells.name" = "Název zařízení";
+"hubAuthentication.deviceRegistration.needsAuthorization.alert.title" = "Registrace zařízení úspěšná";
+"hubAuthentication.deviceRegistration.needsAuthorization.alert.message" = "Pro přístup k trezoru musí být vaše zařízení autorizováno majitelem trezoru.";
+"hubAuthentication.requireAccountInit.alert.title" = "Požadována akce";
+"hubAuthentication.requireAccountInit.alert.actionButton" = "Jít na profil";
+
+"intents.saveFile.missingFile" = "Zadaný soubor není platný.";
+"intents.saveFile.invalidFolder" = "Zadaná složka není platná.";
+"intents.saveFile.missingTemporaryFolder" = "Vytvoření dočasné složky se nezdařilo.";
+"intents.saveFile.lockedVault" = "Musíte odemknout váš trezor, abyste mohli používat tuto zkratku.";
+"intents.saveFile.selectedVaultNotFound" = "Vybraný trezor nebyl nalezen.";
+
+"keepUnlocked.alert.title" = "Zamknout trezor?";
+"keepUnlocked.alert.message" = "Tato změna vyžaduje uzamčení trezoru pro projevení.";
+"keepUnlocked.alert.confirm" = "Potvrdit a zamknout nyní";
+"keepUnlocked.header" = "Určete, jak dlouho chcete, aby tento trezor zůstal odemknutý při nečinnosti.";
+"keepUnlocked.footer.auto" = "Nechat iOS rozhodnout, že Cryptomator může být kdykoliv ukončen a uvolnit paměť, což automaticky uzamkne trezor.";
+"keepUnlocked.footer.on" = "Pomocí vybrané možnosti je třeba kopii vašeho klíče uložit do iOS klíčenky po dobu odemčení trezoru.";
+"keepUnlockedDuration.auto" = "Povolit iOS rozhodnout se automaticky";
+"keepUnlockedDuration.auto.shortDisplayName" = "Auto";
+"keepUnlockedDuration.indefinite" = "Neurčito";
+
+"localFileSystemAuthentication.createNewVault.header" = "Na další obrazovce vyberte umístění úložiště pro váš nový trezor.";
+"localFileSystemAuthentication.createNewVault.button" = "Vyberte umístění úložiště";
+"localFileSystemAuthentication.createNewVault.error.detectedExistingVault" = "V tomto umístění již trezor existuje. Zkuste to prosím znovu s jiným umístěním.";
+"localFileSystemAuthentication.openExistingVault.header" = "Na další obrazovce vyberte složku vašeho existujícího trezoru.";
+"localFileSystemAuthentication.openExistingVault.button" = "Vybrat složku trezoru";
+"localFileSystemAuthentication.openExistingVault.error.noVaultFound" = "Vybraná složka není trezor. Zkuste to prosím znovu s jinou složkou.";
+"localFileSystemAuthentication.info.footer" = "Poskytovatelé souborů, kteří jsou zobrazeni šedě, nepodporují \"vybírání složek\". Toto není omezení Cryptomatoru.";
+
+"maintenanceModeError.runningCloudTask" = "Operace nemůže být provedena, protože musí být pro tento trezor nejdříve dokončeny ostatní operace na pozadí. Opakujte akci později.";
+
+"nameValidation.error.endsWithPeriod" = "Nelze použít název, který končí tečkou. Zvolte prosím jiný název.";
+"nameValidation.error.endsWithSpace" = "Nelze použít název, který končí mezerou. Zvolte prosím jiný název.";
+"nameValidation.error.containsIllegalCharacter" = "Nelze použít název, který obsahuje \"%@\". Zvolte prosím jiný název.";
+
+"onboarding.title" = "Vítejte";
+"onboarding.info" = "Děkujeme, že jste si vybrali Cryptomator pro ochranu vašich souborů.\n\nS Cryptomatorem je klíč k vašim datům ve vašich rukou. Cryptomator vaše data šifruje rychle a snadno.\n\nTato aplikace je plně integrována do aplikace Souborů. Ujistěte se, že jste aktivovali Cryptomator v aplikaci Souboru pro přístup k vašim trezorům.";
+"onboarding.button.continue" = "Pokračovat";
+
+"purchase.beginFreeTrial.alert.title" = "Zkušební verze odemčena";
+"purchase.expiredTrial" = "Vaše zkušební verze vypršela.";
+"purchase.footer.privacyPolicy" = "Ochrana osobních údajů";
+"purchase.footer.termsOfUse" = "Podmínky používání";
+"purchase.header.feature.familySharing" = "Rodinné sdílení";
+"purchase.header.feature.openSource" = "Vývoj Open-source";
+"purchase.header.feature.writeAccess" = "Zápis do vašeho trezoru";
+"purchase.product.donateAndUpgrade" = "Přispějte a upgradujte";
+"purchase.product.freeUpgrade" = "Bezplatný upgrade";
+"purchase.product.lifetimeLicense" = "Doživotní licence";
+"purchase.product.lifetimeLicense.duration" = "jednorázově";
+"purchase.product.pricing.free" = "Zdarma";
+"purchase.product.trial" = "30denní zkušební verze";
+"purchase.product.trial.expirationDate" = "Datum expirace: %@";
+"purchase.product.trial.duration" = "na 30 dní";
+"purchase.product.yearlySubscription" = "Roční předplatné";
+"purchase.product.yearlySubscription.duration" = "ročně";
+"purchase.readOnlyMode.alert.title" = "Režim jen pro čtení";
+"purchase.readOnlyMode.alert.message" = "Plnou verzi Cryptomatoru můžete později odemknout v nastavení a pro tuto chvíli použít Cryptomator v režimu jen pro čtení.";
+"purchase.restorePurchase.button" = "Obnovit nákup";
+"purchase.restorePurchase.validTrialFound.alert.title" = "Zkušební verze pokračuje";
+"purchase.restorePurchase.validTrialFound.alert.message" = "Nyní můžete použít plnou verzi Cryptomatoru na omezenou dobu. Vaše zkušební verze vyprší %@. Poté budou vaše trezory stále dostupné v režimu jen pro čtení.";
+"purchase.restorePurchase.fullVersionFound.alert.title" = "Obnovení bylo úspěšné";
+"purchase.restorePurchase.fullVersionNotFound.alert.title" = "Žádná plná verze";
+"purchase.restorePurchase.fullVersionNotFound.alert.message" = "Nebyli jsme schopni najít dříve zakoupenou plnou verzi, která by mohla být obnovena. Zkuste prosím jinou možnost.";
+"purchase.restorePurchase.eligibleForUpgrade.alert.title" = "Upgrade je dostupný";
+"purchase.restorePurchase.eligibleForUpgrade.alert.message" = "Zdá se, že se pokoušíte upgradovat ze starší verze Cryptomatoru. V takovém případě prosím vyberte možnost \"Nabídka na Upgrade\".";
+"purchase.retry.button" = "Opakovat";
+"purchase.retry.footer" = "Nelze načíst dostupné produkty.";
+"purchase.title" = "Odemknout plnou verzi";
+"purchase.unlockedFullVersion.message" = "Nyní můžete použít plnou verzi Cryptomatoru. Šťastné šifrování!";
+"purchase.unlockedFullVersion.title" = "Děkuji";
+"purchase.error.unknown" = "Tento nákup není z neznámého důvodu v App Store dostupný. Opakujte, prosím, akci později.\n\nPokud tato chyba přetrvává, zkuste restartovat Vaše zařízení nebo se odhlásit a přihlásit znovu k Vašemu Apple ID v nastavení iOS.";
+
+"settings.title" = "Nastavení";
+"settings.aboutCryptomator" = "O Cryptomatoru";
+"settings.aboutCryptomator.title" = "Verze %@ (%@)";
+"settings.cacheSize" = "Velikost mezipaměti";
+"settings.clearCache" = "Vyčistit mezipaměť";
+"settings.cloudServices" = "Cloudové služby";
+"settings.contact" = "Kontakt";
+"settings.debugMode" = "Ladící režim";
+"settings.debugMode.alert.message" = "V tomto režimu mohou být citlivé údaje zapsány do souboru protokolu na vašem zařízení (např. názvy souborů a cesty). Hesla, soubory cookie atd. jsou výslovně vyloučeny.\n\nNezapomeňte co nejdříve vypnout režim ladění.";
+"settings.manageSubscriptions" = "Spravovat předplatné";
+"settings.rateApp" = "Ohodnotit aplikaci";
+"settings.sendLogFile" = "Odeslat log soubor";
+"settings.shortcutsGuide" = "Průvodce zkratkami";
+"settings.unlockFullVersion" = "Odemknout plnou verzi";
+
+"snapshots.fileprovider.file1" = "/Účetnictví.numbers";
+"snapshots.fileprovider.file2" = "/Finální prezentace.key";
+"snapshots.fileprovider.file3" = "/Trailer produktu.mov";
+"snapshots.fileprovider.file4" = "/Návrh.docx";
+"snapshots.fileprovider.file5" = "/Zpráva.pdf";
+"snapshots.fileprovider.folder3" = "/Tajný projekt";
+"snapshots.fileprovider.folder2" = "/Faktury";
+"snapshots.fileprovider.folder1" = "/Certifikáty";
+"snapshots.main.vault1" = "/Práce";
+"snapshots.main.vault2" = "/Rodina";
+"snapshots.main.vault3" = "/Dokumenty";
+"snapshots.main.vault4" = "/výlet do Kalifornie";
+
+"s3Authentication.displayName" = "Zobrazované jméno";
+"s3Authentication.accessKey" = "Přístupový klíč";
+"s3Authentication.secretKey" = "Tajný klíč";
+"s3Authentication.existingBucket" = "Stávající bucket";
+"s3Authentication.endpoint" = "Koncový bod";
+"s3Authentication.region" = "Oblast";
+"s3Authentication.error.invalidCredentials" = "Neplatné přihlašovací údaje.";
+"s3Authentication.error.invalidEndpoint" = "Zadaný endpoint neodpovídá formátu URL.";
+
+"trialStatus.active" = "Aktivní";
+"trialStatus.expired" = "Expirováno";
+
+"unlockVault.button.unlock" = "Odemknout";
+"unlockVault.button.unlockVia" = "Odemknout pomocí %@";
+"unlockVault.password.footer" = "Zadejte heslo pro \"%@\".";
+"unlockVault.enableBiometricalUnlock.switch" = "Povolit %@";
+"unlockVault.enableBiometricalUnlock.footer" = "Namísto odemknutí vašeho trezoru pomocí hesla jej můžete odemknout přes %@.";
+"unlockVault.evaluatePolicy.reason" = "Odemknout váš trezor";
+"unlockVault.progress" = "Odemykání…";
+
+"untrustedTLSCertificate.title" = "Neplatný TLS certifikát";
+"untrustedTLSCertificate.message" = "TLS certifikát \"%@\" je neplatný. Chcete mu přesto důvěřovat?\n\n SHA-256: %@";
+"untrustedTLSCertificate.add" = "Důvěřovat";
+"untrustedTLSCertificate.dismiss" = "Nedůvěřovat";
+
+"upgrade.title" = "Nabídka na Upgrade";
+"upgrade.notEligible.alert.title" = "Upgrade se nezdařil";
+"upgrade.notEligible.alert.message" = "Cryptomator nemohl najít starší verzi nainstalovanou na vašem zařízení. Pokud jste si ji zakoupili, stáhněte si ji prosím znovu z App Store a zkuste to znovu.";
+"upgrade.info" = "Děkujeme, že důvěřujete Cryptomatoru od první verze. Jako věrný uživatel máte nárok na bezplatný upgrade.";
+
+"urlSession.error.httpError.401" = "Nesprávné uživatelské jméno a/nebo heslo.";
+"urlSession.error.httpError.403" = "Nedostatečná práva k požadovanému zdroji.";
+"urlSession.error.httpError.404" = "Požadovaný zdroj nebyl nalezen.";
+"urlSession.error.httpError.405" = "Metoda požadavku není podporována cílovým zdrojem.";
+"urlSession.error.httpError.409" = "Konflikt požadavku se současným stavem cílového zdroje.";
+"urlSession.error.httpError.412" = "Přístup k cílovému zdroji byl odepřen.";
+"urlSession.error.httpError.default" = "Připojení k síti selhalo se stavovým kódem %ld.";
+"urlSession.error.unexpectedResponse" = "Došlo k neočekávané odpovědi sítě.";
+
+"vaultAccountManager.error.vaultAccountAlreadyExists" = "Tento trezor jste již přidali.";
+
+"vaultDetail.button.changeVaultPassword" = "Změnit heslo";
+"vaultDetail.button.lock" = "Uzamknout nyní";
+"vaultDetail.button.moveVault" = "Přesunout";
+"vaultDetail.button.removeVault" = "Odebrat ze seznamu trezorů";
+"vaultDetail.button.renameVault" = "Přejmenovat";
+"vaultDetail.changePassword.footer" = "Vyberte silné heslo pro váš trezor, které znáte jen vy a uchováváte na bezpečném místě.";
+"vaultDetail.disabledBiometricalUnlock.footer" = "Pokud povolíte %@, vaše heslo k trezoru bude uloženo v iOS klíčence.";
+"vaultDetail.enabledBiometricalUnlock.footer" = "Vaše heslo k trezoru bude vyžadováno pouze v případě, že %@ ověření selže.";
+"vaultDetail.info.footer.accessVault" = "Přistoupit k trezoru prostřednictvím aplikace Soubory.";
+"vaultDetail.info.footer.accountInfo" = "Přihlášen jako %@ přes %@.";
+"vaultDetail.keepUnlocked.title" = "Doba trvání odemknutí";
+"vaultDetail.keepUnlocked.footer.off" = "Odemknutí bude vyžadováno po ukončení aplikace Cryptomator.";
+"vaultDetail.keepUnlocked.footer.limitedDuration" = "Odemknutí bude vyžadováno při nečinnosti trezoru delší než %@.";
+"vaultDetail.keepUnlocked.footer.unlimitedDuration" = "Odemčení nebude třeba pokud nedojde k manuálnímu zamčení.";
+"vaultDetail.locked.footer" = "Váš trezor je momentálně uzamčen.";
+"vaultDetail.moveVault.detectedMasterkey.text" = "Cryptomator zjistil na tomto místě existující trezor.\nChcete-li trezor přesunout, vraťte se zpět a vyberte jinou složku.";
+"vaultDetail.moveVault.progress" = "Přesouvání…";
+"vaultDetail.removeVault.footer" = "Tímto odstraníte pouze trezor ze seznamu trezorů a neodstraníte žádné šifrované soubory.";
+"vaultDetail.renameVault.progress" = "Přejmenování…";
+"vaultDetail.unlocked.footer" = "Váš trezor je v současné době odemčen v aplikaci Soubory.";
+"vaultDetail.unlockVault.footer" = "Zadejte heslo pro \"%@\" pro uložení do iOS klíčenky a pro povolení %@.";
+
+"vaultList.header.title" = "Trezory";
+"vaultList.emptyList.message" = "Klikněte zde pro přidání nového trezoru";
+"vaultList.remove.alert.title" = "Odstranit trezor?";
+"vaultList.remove.alert.message" = "Tímto odstraníte trezor pouze ze seznamu trezorů. Šifrovaná data nebudou smazána. Později můžete trezor znovu přidat.";
+
+"vaultProviderFactory.error.unsupportedVaultConfig" = "Konfigurace trezoru není podporována. Ujistěte se, že používáte nejnovější verzi Cryptomatoru.";
+"vaultProviderFactory.error.unsupportedVaultVersion" = "Verze trezoru %ld není podporována. Tento trezor byl vytvořen se starší nebo novější verzí Cryptomator.";
+
+"webDAVAuthentication.httpConnection.alert.title" = "Použít HTTPS?";
+"webDAVAuthentication.httpConnection.alert.message" = "Použití HTTP je nezabezpečené. Doporučujeme použít HTTPS. Pokud znáte rizika, můžete pokračovat s HTTP.";
+"webDAVAuthentication.httpConnection.change" = "Změnit na HTTPS";
+"webDAVAuthentication.httpConnection.continue" = "Zachovat HTTP";
+
+"webDAVAuthenticator.error.unsupportedProtocol" = "Server není kompatibilní s WebDAV. Zkontrolujte, zda jste použili správnou adresu.";
+"webDAVAuthenticator.error.untrustedCertificate" = "Certifikát tohoto serveru není důvěryhodný. Možná budete muset znovu přidat toto WebDAV připojení.";
+
+"Retry Upload" = "Opakovat nahrání";
+"Clear from Cache" = "Smazat z mezipaměti";

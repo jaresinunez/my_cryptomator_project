@@ -1,0 +1,305 @@
+/* 
+  Localizable.strings
+  Cryptomator
+
+  Copyright © 2021 Skymatic GmbH. All rights reserved.
+*/
+
+"common.alert.error.title" = "Σφάλμα";
+"common.alert.attention.title" = "Προσοχή";
+"common.button.cancel" = "Ακύρωση";
+"common.button.change" = "Αλλαγή";
+"common.button.choose" = "Επιλογή";
+"common.button.clear" = "Εκκαθάριση";
+"common.button.close" = "Κλείσιμο";
+"common.button.confirm" = "Επιβεβαίωση";
+"common.button.create" = "Δημιουργία";
+"common.button.createFolder" = "Δημιουργία Φακέλου";
+"common.button.done" = "Κλείσιμο";
+"common.button.download" = "Λήψη";
+"common.button.edit" = "Επεξεργασία";
+"common.button.enable" = "Ενεργοποίηση";
+"common.button.next" = "Επόμενο";
+"common.button.ok" = "ΟΚ";
+"common.button.refresh" = "Ανανέωση";
+"common.button.register" = "Εγγραφή";
+"common.button.remove" = "Αφαίρεση";
+"common.button.retry" = "Επανάληψη";
+"common.button.signOut" = "Αποσύνδεση";
+"common.button.verify" = "Επαλήθευση";
+"common.cells.openInFilesApp" = "Άνοιγμα στην εφαρμογή Αρχείων";
+"common.cells.password" = "Κωδικός πρόσβασης";
+"common.cells.url" = "URL";
+"common.cells.username" = "Όνομα χρήστη";
+"common.footer.learnMore" = "Μάθε περισσότερα.";
+"common.hud.authenticating" = "Ταυτοποίηση…";
+
+"accountList.header.title" = "Ταυτοποιήσεις";
+"accountList.emptyList.message" = "Πατήστε εδώ για να προσθέσετε ένα λογαριασμό";
+"accountList.signOut.alert.title" = "Αφαίρεση Συσχετιζόμενων Κρυπτών;";
+"accountList.signOut.alert.message" = "Με την αποσύνδεση, όλες οι συνδεδεμένες κρύπτες θα αφαιρεθούν από τη λίστα κρυπτών. Δεν θα διαγραφούν τα κρυπτογραφημένα δεδομένα. Μπορείτε να συνδεθείτε ξανά και να προσθέσετε ξανά τις κρύπτες αργότερα.";
+
+"addVault.title" = "Προσθήκη Κρύπτης";
+"addVault.createNewVault.title" = "Δημιουργία Νέας Κρύπτης";
+"addVault.createNewVault.purchase" = "Η δημιουργία μιας νέας κρύπτης απαιτεί την πλήρη έκδοση του Cryptomator.";
+"addVault.createNewVault.setVaultName.header.title" = "Διαλέξτε ένα όνομα για την κρύπτη.";
+"addVault.createNewVault.setVaultName.cells.name" = "Όνομα Κρύπτης";
+"addVault.createNewVault.setVaultName.error.emptyVaultName" = "Το όνομα της κρύπτης δεν μπορεί να είναι κενό.";
+"addVault.createNewVault.chooseCloud.header" = "Που θα πρέπει να αποθηκεύσει το Cryptomator τα κωδικοποιημένα αρχεία της κρύπτης σου;";
+"addVault.createNewVault.chooseFolder.error.vaultNameCollision" = "\"%@\" υπάρχει ήδη σε αυτή τη θέση. Επιλέξτε ένα διαφορετικό όνομα κρύπτης ή τοποθεσία.";
+"addVault.createNewVault.detectedMasterkey.text" = "Το Cryptomator εντόπισε μια υπάρχον κρύπτη σε αυτή τη θέση.\nΓια να δημιουργήσετε μια νέα κρύπτη, παρακαλώ επιστρέψτε και επιλέξτε ένα διαφορετικό φάκελο.";
+"addVault.createNewVault.password.enterPassword.header" = "Εισάγετε ένα νέο κωδικό.";
+"addVault.createNewVault.password.confirmPassword.header" = "Επιβεβαιώστε το νέο κωδικό.";
+"addVault.createNewVault.password.confirmPassword.alert.title" = "Επιβεβαίωση κωδικού;";
+"addVault.createNewVault.password.confirmPassword.alert.message" = "ΣΗΜΑΝΤΙΚΟ: Εάν ξεχάσετε τον κωδικό πρόσβασής σας, δεν υπάρχει τρόπος να ανακτήσετε τα δεδομένα σας.";
+"addVault.createNewVault.password.error.emptyPassword" = "Ο κωδικός πρόσβασης δεν μπορεί να είναι κενός.";
+"addVault.createNewVault.password.error.nonMatchingPasswords" = "Οι κωδικοί δεν ταιριάζουν.";
+"addVault.createNewVault.password.error.tooShortPassword" = "Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον 8 χαρακτήρες.";
+"addVault.createNewVault.progress" = "Δημιουργία Κρύπτης…";
+"addVault.openExistingVault.title" = "Άνοιγμα Υπάρχοντος Κρύπτης";
+"addVault.openExistingVault.chooseCloud.header" = "Πού βρίσκεται η κρυπτή;";
+"addVault.openExistingVault.detectedMasterkey.text" = "Το Cryptomator εντόπισε την κρύπτη \"%@\".\nΘα θέλατε να προσθέσετε αυτή την κρύπτη;";
+"addVault.openExistingVault.detectedMasterkey.add" = "Προσθήκη αυτής της κρύπτης";
+"addVault.openExistingVault.downloadVault.progress" = "Λήψη Κρύπτης…";
+"addVault.openExistingVault.password.footer" = "Εισάγετε τον κωδικό για \"%@\".";
+"addVault.openExistingVault.progress" = "Προσθήκη Κρύπτης…";
+"addVault.success.info" = "Προστέθηκε με επιτυχία η κρύπτη \"%@\".\nΠρόσβαση σε αυτή την κρύπτη μέσω της εφαρμογής Αρχείων.";
+"addVault.success.footer" = "Αν δεν το έχετε κάνεΙ ήδη, ενεργοποιήστε τον Cryptomator στην εφαρμογή Αρχείων.";
+
+"biometryType.faceID" = "Face ID";
+"biometryType.touchID" = "Touch ID";
+
+"changePassword.error.invalidOldPassword" = "Ο τρέχων κωδικός πρόσβασης είναι λάθος. Παρακαλώ προσπαθήστε ξανά.";
+"changePassword.header.currentPassword.title" = "Εισάγετε τον τρέχοντα κωδικό πρόσβασης.";
+"changePassword.header.newPassword.title" = "Εισάγετε ένα νέο κωδικό.";
+"changePassword.header.newPasswordConfirmation.title" = "Επιβεβαιώστε το νέο κωδικό.";
+"changePassword.progress" = "Αλλαγή Κωδικού πρόσβασης…";
+
+"chooseFolder.emptyFolder.footer" = "Ο φάκελος είναι κενός";
+"chooseFolder.createNewFolder.header.title" = "Επιλέξτε ένα όνομα για το φάκελο.";
+"chooseFolder.createNewFolder.cells.name" = "Όνομα Φακέλου";
+"chooseFolder.createNewFolder.error.emptyFolderName" = "Το όνομα φακέλου δεν μπορεί να είναι κενό.";
+"chooseFolder.createNewFolder.progress" = "Δημιουργία Φακέλου…";
+
+"cloudProvider.error.itemNotFound" = "\"%@\" δεν βρέθηκε.";
+"cloudProvider.error.itemAlreadyExists" = "\"%@\" υπάρχει ήδη.";
+"cloudProvider.error.itemTypeMismatch" = "\"%@\" έχει έναν μη αναμενόμενο τύπο στοιχείου.";
+"cloudProvider.error.parentFolderDoesNotExist" = "Γονικός φάκελος \"%@\" δεν υπάρχει.";
+"cloudProvider.error.pageTokenInvalid" = "Η λήψη περιεχομένων του καταλόγου δεν μπόρεσε να συνεχιστεί.";
+"cloudProvider.error.quotaInsufficient" = "Ο αποθηκευτικός σας χώρος δεν επαρκεί.";
+"cloudProvider.error.unauthorized" = "Δεν είναι δυνατή η εκτέλεση μη εξουσιοδοτημένης λειτουργίας.";
+"cloudProvider.error.noInternetConnection" = "Απαιτείται σύνδεση στο διαδίκτυο για αυτήν τη λειτουργία.";
+
+"cloudProviderType.localFileSystem" = "Άλλος Πάροχος Αρχείων";
+
+"fileProvider.onboarding.title" = "Καλώς ήρθατε";
+"fileProvider.onboarding.info" = "Ευχαριστούμε που επιλέξατε το Cryptomator για την προστασία των αρχείων σας. Για να ξεκινήσετε, μεταβείτε στην κύρια εφαρμογή και προσθέστε μια κρύπτη.";
+"fileProvider.onboarding.button.openCryptomator" = "Άνοιγμα Cryptomator";
+"fileProvider.error.biometricalAuthCanceled.title" = "Το Ξεκλείδωμα Ακυρώθηκε";
+"fileProvider.error.biometricalAuthCanceled.message" = "Το ξεκλείδωμα μέσω %@ δεν ήταν επιτυχές. Παρακαλώ προσπαθήστε ξανά.";
+"fileProvider.error.biometricalAuthWrongPassword.title" = "Λάθος Κωδικός Πρόσβασης";
+"fileProvider.error.biometricalAuthWrongPassword.message" = "Ο κωδικός πρόσβασης που έχει αποθηκευτεί για %@ είναι λάθος. Παρακαλώ προσπαθήστε ξανά και εισάγετε τον κωδικό πρόσβασής σας για να ενεργοποιήσετε ξανά %@.";
+"fileProvider.error.defaultLock.title" = "Απαιτείται Ξεκλείδωμα";
+"fileProvider.error.defaultLock.message" = "Για να αποκτήσετε πρόσβαση και να εμφανίσετε τα περιεχόμενα της κρύπτη σας, πρέπει να ξεκλειδωθεί.";
+"fileProvider.error.unlockButton" = "Ξεκλείδωμα";
+"fileProvider.clearFileFromCache.title" = "Εκκαθάριση αρχείου από την προσωρινή μνήμη";
+"fileProvider.clearFileFromCache.message" = "Αυτό καταργεί μόνο το τοπικό αρχείο από τη συσκευή σας και δεν διαγράφει το αρχείο στο cloud.";
+"fileProvider.fileImporting.error.missingPremium" = "Ξεκλειδώστε την πλήρη έκδοση στην εφαρμογή Cryptomator για να αποκτήσετε πρόσβαση εγγραφής στις κρύπτες σας.";
+"fileProvider.uploadProgress.connecting" = "Σύνδεση…";
+"fileProvider.uploadProgress.message" = "Τρέχουσα Πρόοδος: %@%\n\nΑν παρατηρήσετε ότι η πρόοδος μεταφόρτωσης έχει κολλήσει, μπορείτε να δοκιμάσετε ξανά τη μεταφόρτωση.";
+"fileProvider.uploadProgress.missing" = "Η πρόοδος δεν μπορεί να καθοριστεί. Μπορεί να εκτελείται στο παρασκήνιο.";
+"fileProvider.uploadProgress.title" = "Μεταφόρτωση…";
+"fileProvider.uploadProgress.missingDomainError" = "Δεν ήταν δυνατή η εύρεση του τομέα.";
+
+"getFolderIntent.error.missingPath" = "Δε δόθηκε καμία διαδρομή. Παρακαλώ δώστε μια έγκυρη διαδρομή για την οποία θα πρέπει να επιστραφεί ένας φάκελος.";
+"getFolderIntent.error.noVaultSelected" = "Δεν έχει επιλεγεί κρύπτη.";
+
+"hubAuthentication.title" = "Κρύπτη Hub";
+"hubAuthentication.accessNotGranted" = "Η συσκευή σας δεν έχει ακόμη εξουσιοδοτηθεί να έχει πρόσβαση σε αυτή την κρύπτη. Ζητήστε από τον κάτοχο της κρύπτης να την εξουσιοδοτήσει.";
+"hubAuthentication.licenseExceeded" = "Η συνεδρία σας στο Cryptomator Hub έχει μη έγκυρη άδεια χρήσης. Ενημερώστε έναν διαχειριστή του Hub για να αναβαθμίσει ή να ανανεώσει την άδεια χρήσης.";
+"hubAuthentication.deviceRegistration.deviceName.cells.name" = "Όνομα Συσκευής";
+"hubAuthentication.deviceRegistration.deviceName.footer.title" = "Αυτή φαίνεται να είναι η πρώτη πρόσβαση στο Hub από αυτήν τη συσκευή. Για να την αναγνωρίσετε για εξουσιοδότηση πρόσβασης, πρέπει να ονομάσετε αυτήν τη συσκευή.";
+"hubAuthentication.deviceRegistration.accountKey.footer.title" = "Το Κλειδί Λογαριασμού σας απαιτείται για να συνδεθείτε από νέες εφαρμογές ή προγράμματα περιήγησης. Μπορείτε να το βρείτε στο προφίλ σας.";
+"hubAuthentication.deviceRegistration.needsAuthorization.alert.title" = "Επιτυχής Εγγραφή Συσκευής";
+"hubAuthentication.deviceRegistration.needsAuthorization.alert.message" = "Για να αποκτήσετε πρόσβαση στην κρύπτη, η συσκευή σας πρέπει να είναι εξουσιοδοτημένη από τον κάτοχο της κρύπτης.";
+"hubAuthentication.requireAccountInit.alert.title" = "Απαιτείται Ενέργεια";
+"hubAuthentication.requireAccountInit.alert.message" = "Για να συνεχίσετε, παρακαλούμε συμπληρώστε τα βήματα που απαιτούνται στο προφίλ χρήστη Hub σας.";
+"hubAuthentication.requireAccountInit.alert.actionButton" = "Πηγαίνετε στο Προφίλ";
+
+"intents.saveFile.missingFile" = "Το παρεχόμενο αρχείο δεν είναι έγκυρο.";
+"intents.saveFile.invalidFolder" = "Ο παρεχόμενος φάκελος δεν είναι έγκυρος.";
+"intents.saveFile.missingTemporaryFolder" = "Αποτυχία δημιουργίας προσωρινού φακέλου.";
+"intents.saveFile.lockedVault" = "Πρέπει να ξεκλειδώσετε την κρύπτη σας για να χρησιμοποιήσετε αυτήν τη συντόμευση.";
+"intents.saveFile.selectedVaultNotFound" = "Δεν ήταν δυνατή η εύρεση της επιλεγμένης κρύπτης.";
+
+"keepUnlocked.alert.title" = "Κλείδωμα Κρύπτης;";
+"keepUnlocked.alert.message" = "Αυτή η αλλαγή απαιτεί η κρύπτη σας να κλειδωθεί για να τεθεί σε ισχύ.";
+"keepUnlocked.alert.confirm" = "Επιβεβαίωση & Κλείδωμα Τώρα";
+"keepUnlocked.header" = "Καθορίστε για πόσο χρονικό διάστημα θέλετε αυτή η κρύπτη να παραμένει ξεκλείδωτη όταν είναι σε αδράνεια.";
+"keepUnlocked.footer.auto" = "Αφήνοντας το iOS να αποφασίσει σημαίνει ότι το Cryptomator μπορεί να τερματιστεί οποιαδήποτε στιγμή για να ελευθερώσει μνήμη, η οποία κλειδώνει αυτόματα την κρύπτη.";
+"keepUnlocked.footer.on" = "Χρησιμοποιώντας την επιλεγμένη επιλογή, ένα αντίγραφο του κλειδιού σας πρέπει να αποθηκεύεται στο iOS keychain, εφόσον η κρύπτη είναι ξεκλείδωτη.";
+"keepUnlockedDuration.auto" = "Αφήστε το iOS να αποφασίζει αυτόματα";
+"keepUnlockedDuration.auto.shortDisplayName" = "Αυτόματο";
+"keepUnlockedDuration.indefinite" = "Αόριστο";
+
+"localFileSystemAuthentication.createNewVault.header" = "Στην επόμενη οθόνη, επιλέξτε τη θέση αποθήκευσης για τη νέα κρύπτη σας.";
+"localFileSystemAuthentication.createNewVault.button" = "Επιλογή Τοποθεσίας Αποθήκευσης Αρχείων";
+"localFileSystemAuthentication.createNewVault.error.detectedExistingVault" = "Μια κρύπτη υπάρχει ήδη σε αυτή τη θέση. Παρακαλώ δοκιμάστε ξανά με μια διαφορετική θέση αποθήκευσης.";
+"localFileSystemAuthentication.openExistingVault.header" = "Στην επόμενη οθόνη, επιλέξτε το φάκελο της υπάρχοντος κρύπτη σας.";
+"localFileSystemAuthentication.openExistingVault.button" = "Επιλογή Φακέλου Κρύπτης";
+"localFileSystemAuthentication.openExistingVault.error.noVaultFound" = "Ο επιλεγμένος φάκελος δεν είναι κρύπτη. Παρακαλώ προσπαθήστε ξανά με διαφορετικό φάκελο.";
+"localFileSystemAuthentication.info.footer" = "Οι πάροχοι αρχείων που είναι γκριζαρισμένοι δεν υποστηρίζουν \"επιλογή φακέλων\". Αυτό δεν είναι περιορισμός του Cryptomator.";
+
+"maintenanceModeError.runningCloudTask" = "Η λειτουργία δεν μπορεί να εκτελεστεί επειδή άλλες λειτουργίες στο παρασκήνιο αυτής της κρύπτης πρέπει να τελειώσουν πρώτα. Παρακαλώ δοκιμάστε ξανά αργότερα.";
+
+"nameValidation.error.endsWithPeriod" = "Δεν μπορείτε να χρησιμοποιήσετε ένα όνομα που τελειώνει με τελεία. Επιλέξτε άλλο όνομα.";
+"nameValidation.error.endsWithSpace" = "Δεν μπορείτε να χρησιμοποιήσετε ένα όνομα που τελειώνει με κενό. Επιλέξτε άλλο όνομα.";
+"nameValidation.error.containsIllegalCharacter" = "Δεν μπορείτε να χρησιμοποιήσετε ένα όνομα που περιέχει το \"%@\". Παρακαλώ επιλέξτε ένα άλλο όνομα.";
+
+"onboarding.title" = "Καλώς ήρθατε";
+"onboarding.info" = "Ευχαριστούμε που επιλέξατε Cryptomator για την προστασία των αρχείων σας.\n\nΜε το Cryptomator, το κλειδί για τα δεδομένα σας είναι στα χέρια σας. Το Cryptomator κρυπτογραφεί τα δεδομένα σας γρήγορα και εύκολα.\n\nΑυτή η εφαρμογή είναι πλήρως ενσωματωμένη στην εφαρμογή Αρχεία. Σιγουρευτείτε ότι θα ενεργοποιήσετε τον Cryptomator στην εφαρμογή Αρχεία αργότερα για να αποκτήσετε πρόσβαση στις κρύπτες σας.";
+"onboarding.button.continue" = "Συνέχεια";
+
+"purchase.beginFreeTrial.alert.title" = "Η Δοκιμαστική περίοδος ξεκλειδώθηκε";
+"purchase.expiredTrial" = "Η δοκιμαστική έκδοση έχει λήξει.";
+"purchase.footer.privacyPolicy" = "Πολιτική Απορρήτου";
+"purchase.footer.termsOfUse" = "Όροι Χρήσης";
+"purchase.header.feature.familySharing" = "Οικογενειακή κοινή χρήση";
+"purchase.header.feature.openSource" = "Ανοιχτού κώδικα ανάπτυξη";
+"purchase.header.feature.writeAccess" = "Πρόσβαση εγγραφής στις κρύπτες σας";
+"purchase.product.donateAndUpgrade" = "Δωρεά & Αναβάθμιση";
+"purchase.product.freeUpgrade" = "Δωρεάν Αναβάθμιση";
+"purchase.product.lifetimeLicense" = "Άδεια Εφ' όρου ζωής";
+"purchase.product.lifetimeLicense.duration" = "μια φορά";
+"purchase.product.pricing.free" = "Δωρεάν";
+"purchase.product.trial" = "Δοκιμή 30-Ημερών";
+"purchase.product.trial.expirationDate" = "Ημερομηνία Λήξης: %@";
+"purchase.product.trial.duration" = "για 30 ημέρες";
+"purchase.product.yearlySubscription" = "Ετήσια Συνδρομή";
+"purchase.product.yearlySubscription.duration" = "ετήσια";
+"purchase.readOnlyMode.alert.title" = "Λειτουργία Μόνο-Ανάγνωση";
+"purchase.readOnlyMode.alert.message" = "Μπορείτε να ξεκλειδώσετε την πλήρη έκδοση του Cryptomator αργότερα στις ρυθμίσεις και να τη χρησιμοποιήσετε σε λειτουργία μόνο για ανάγνωση προς το παρόν.";
+"purchase.restorePurchase.button" = "Επαναφορά Αγοράς";
+"purchase.restorePurchase.validTrialFound.alert.title" = "Η δοκιμαστική περίοδος συνεχίστηκε";
+"purchase.restorePurchase.validTrialFound.alert.message" = "Τώρα μπορείτε να χρησιμοποιήσετε την πλήρη έκδοση του Cryptomator για περιορισμένο χρονικό διάστημα. Η δοκιμή σας λήγει στις %@. Μετά από αυτό, οι κρύπτες σας θα είναι ακόμα προσβάσιμες σε λειτουργία μόνο για ανάγνωση.";
+"purchase.restorePurchase.fullVersionFound.alert.title" = "Επιτυχής Επαναφορά";
+"purchase.restorePurchase.fullVersionNotFound.alert.title" = "Χωρίς Πλήρη Έκδοση";
+"purchase.restorePurchase.fullVersionNotFound.alert.message" = "Δεν ήταν δυνατή η εύρεση μιας προηγούμενης πλήρους έκδοσης που θα μπορούσε να αποκατασταθεί. Παρακαλώ δοκιμάστε μια άλλη επιλογή.";
+"purchase.restorePurchase.eligibleForUpgrade.alert.title" = "Επιλέξιμο για αναβάθμιση";
+"purchase.restorePurchase.eligibleForUpgrade.alert.message" = "Φαίνεται ότι προσπαθείτε να κάνετε αναβάθμιση από μια παλαιότερη έκδοση του Cryptomator. Σε αυτήν την περίπτωση, επιλέξτε την επιλογή \"Προσφορά Αναβάθμισης\".";
+"purchase.retry.button" = "Επανάληψη";
+"purchase.retry.footer" = "Δεν ήταν δυνατή η φόρτωση των διαθέσιμων προϊόντων.";
+"purchase.title" = "Ξεκλείδωμα Πλήρους Έκδοσης";
+"purchase.unlockedFullVersion.message" = "Τώρα μπορείτε να χρησιμοποιήσετε την πλήρη έκδοση του Cryptomator. Καλή κρυπτογράφηση!";
+"purchase.unlockedFullVersion.title" = "Σας Ευχαριστούμε";
+"purchase.error.unknown" = "Αυτή η αγορά δεν είναι διαθέσιμη στο App Store για άγνωστο λόγο. Δοκιμάστε ξανά αργότερα.\n\nΕάν αυτό το σφάλμα επιμένει, δοκιμάστε να επανεκκινήσετε τη συσκευή σας ή να αποσυνδεθείτε και να συνδεθείτε ξανά στο Apple ID σας στις ρυθμίσεις του iOS.";
+
+"settings.title" = "Ρυθμίσεις";
+"settings.aboutCryptomator" = "Σχετικά με το Cryptomator";
+"settings.aboutCryptomator.title" = "Έκδοση %@ (%@)";
+"settings.cacheSize" = "Μέγεθος προσωρινής μνήμης";
+"settings.clearCache" = "Εκκαθάριση προσωρινής μνήμης";
+"settings.cloudServices" = "Υπηρεσίες Cloud";
+"settings.contact" = "Επικοινωνία";
+"settings.debugMode" = "Λειτουργία Αποσφαλμάτωσης";
+"settings.debugMode.alert.message" = "Σε αυτή τη λειτουργία, μπορεί να γραφτούν ευαίσθητα δεδομένα σε ένα αρχείο καταγραφής στη συσκευή σας (π.χ. ονόματα αρχείων και διαδρομές). Οι κωδικοί πρόσβασης, τα cookies κλπ. αποκλείονται ρητά.\n\nΘυμηθείτε να απενεργοποιήσετε τη λειτουργία εντοπισμού σφαλμάτων το συντομότερο δυνατό.";
+"settings.manageSubscriptions" = "Διαχείριση Συνδρομής";
+"settings.rateApp" = "Αξιολογήστε την Εφαρμογή";
+"settings.sendLogFile" = "Αποστολή Αρχείου Καταγραφής";
+"settings.shortcutsGuide" = "Οδηγός Συντομεύσεων";
+"settings.unlockFullVersion" = "Ξεκλείδωμα Πλήρους Έκδοσης";
+
+"snapshots.fileprovider.file1" = "/Λογιστική.αριθμοί";
+"snapshots.fileprovider.file2" = "/Τελική Παρουσίαση.key";
+"snapshots.fileprovider.file3" = "/Trailer προϊόντος.mov";
+"snapshots.fileprovider.file4" = "/Πρόταση.docx";
+"snapshots.fileprovider.file5" = "/Αναφορά.pdf";
+"snapshots.fileprovider.folder3" = "/Μυστικό Project";
+"snapshots.fileprovider.folder2" = "/Τιμολόγια";
+"snapshots.fileprovider.folder1" = "/Πιστοποιητικά";
+"snapshots.main.vault1" = "/Εργασία";
+"snapshots.main.vault2" = "/Οικογένεια";
+"snapshots.main.vault3" = "/Έγγραφα";
+"snapshots.main.vault4" = "/Ταξίδι στην Καλιφόρνια";
+
+"s3Authentication.displayName" = "Εμφανιζόμενο Όνομα";
+"s3Authentication.accessKey" = "Κλειδί Πρόσβασης";
+"s3Authentication.secretKey" = "Μυστικό Κλειδί";
+"s3Authentication.existingBucket" = "Υπάρχων Bucket";
+"s3Authentication.endpoint" = "Τελικό Σημείο";
+"s3Authentication.region" = "Περιοχή";
+"s3Authentication.error.invalidCredentials" = "Μη έγκυρα διαπιστευτήρια.";
+"s3Authentication.error.invalidEndpoint" = "Το παρεχόμενο τελικό σημείο δεν ταιριάζει με τη μορφή μιας διεύθυνσης URL.";
+
+"trialStatus.active" = "Ενεργή";
+"trialStatus.expired" = "Έληξε";
+
+"unlockVault.button.unlock" = "Ξεκλείδωμα";
+"unlockVault.button.unlockVia" = "Ξεκλείδωμα μέσω %@";
+"unlockVault.password.footer" = "Εισάγετε τον κωδικό για \"%@\".";
+"unlockVault.enableBiometricalUnlock.switch" = "Ενεργοποίηση %@";
+"unlockVault.enableBiometricalUnlock.footer" = "Αντί να ξεκλειδώνετε την κρύπτη σας με τον κωδικό πρόσβασής σας, μπορείτε να το ξεκλειδώσετε μέσω %@.";
+"unlockVault.evaluatePolicy.reason" = "Ξεκλειδώστε την κρύπτη σας";
+"unlockVault.progress" = "Ξεκλείδωμα…";
+
+"untrustedTLSCertificate.title" = "Μη έγκυρο πιστοποιητικό TLS";
+"untrustedTLSCertificate.message" = "Το πιστοποιητικό TLS του \"%@\" δεν είναι έγκυρο. Θέλετε να το εμπιστευθείτε ούτως ή άλλως;\n\n SHA-256: %@";
+"untrustedTLSCertificate.add" = "Εμπιστευτείτε";
+"untrustedTLSCertificate.dismiss" = "Μην Εμπιστευτείτε";
+
+"upgrade.title" = "Προσφορά Αναβάθμισης";
+"upgrade.notEligible.alert.title" = "Η Αναβάθμιση Απέτυχε";
+"upgrade.notEligible.alert.message" = "Το Cryptomator δεν μπόρεσε να εντοπίσει μια παλαιότερη έκδοση που είναι εγκατεστημένη στη συσκευή σας. Εάν το αγοράσατε, κατεβάστε το ξανά από το App Store και δοκιμάστε ξανά.";
+"upgrade.info" = "Ευχαριστούμε που εμπιστεύεστε το Cryptomator από την πρώτη έκδοση. Ως πιστός χρήστης, πληρείτε τα κριτήρια για δωρεάν αναβάθμιση.";
+
+"urlSession.error.httpError.401" = "Λάθος όνομα χρήστη και/ή κωδικός πρόσβασης.";
+"urlSession.error.httpError.403" = "Ανεπαρκή δικαιώματα στον ζητούμενο πόρο.";
+"urlSession.error.httpError.404" = "Ο ζητούμενος πόρος δεν βρέθηκε.";
+"urlSession.error.httpError.405" = "Η μέθοδος αιτήματος δεν υποστηρίζεται από τον πόρο-στόχο.";
+"urlSession.error.httpError.409" = "Αίτηση σύγκρουσης με την τρέχουσα κατάσταση του πόρου στόχου.";
+"urlSession.error.httpError.412" = "Δεν επιτρέπεται η πρόσβαση στον πόρο-στόχο.";
+"urlSession.error.httpError.default" = "Η σύνδεση δικτύου απέτυχε με κωδικό κατάστασης %ld.";
+"urlSession.error.unexpectedResponse" = "Υπήρξε μια απροσδόκητη απόκριση δικτύου.";
+
+"vaultAccountManager.error.vaultAccountAlreadyExists" = "Έχετε ήδη προσθέσει αυτή τη κρύπτη.";
+
+"vaultDetail.button.changeVaultPassword" = "Αλλαγή κωδικού πρόσβασης";
+"vaultDetail.button.lock" = "Κλείδωμα τώρα";
+"vaultDetail.button.moveVault" = "Μετακίνηση";
+"vaultDetail.button.removeVault" = "Κατάργηση από την Λίστα Κρύπτης";
+"vaultDetail.button.renameVault" = "Μετονομασία";
+"vaultDetail.changePassword.footer" = "Επιλέξτε έναν ισχυρό κωδικό πρόσβασης για την κρύπτη σας που μόνο εσείς γνωρίζετε και φυλάξτε τον σε ασφαλές μέρος.";
+"vaultDetail.disabledBiometricalUnlock.footer" = "Εάν ενεργοποιήσετε το %@, ο κωδικός πρόσβασης της κρύπτη σας θα αποθηκευτεί στο iOS keychain.";
+"vaultDetail.enabledBiometricalUnlock.footer" = "Ο κωδικός πρόσβασης του Vault σας θα απαιτείται μόνο εάν αποτύχει η ταυτοποίηση %@.";
+"vaultDetail.info.footer.accessVault" = "Πρόσβαση στην κρύπτη μέσω της εφαρμογής Αρχείων.";
+"vaultDetail.info.footer.accountInfo" = "Συνδεθήκατε ως %@ μέσω %@.";
+"vaultDetail.keepUnlocked.title" = "Διάρκεια Ξεκλειδώματος";
+"vaultDetail.keepUnlocked.footer.off" = "Το ξεκλείδωμα θα απαιτείται όταν το Cryptomator τερματιστεί από την εφαρμογή Άρχεια.";
+"vaultDetail.keepUnlocked.footer.limitedDuration" = "Το ξεκλείδωμα θα απαιτείται όταν η κρύπτη σας είναι σε αδράνεια για %@.";
+"vaultDetail.keepUnlocked.footer.unlimitedDuration" = "Δεν θα απαιτείται ξεκλείδωμα εκτός εάν κλειδωθεί χειροκίνητα.";
+"vaultDetail.locked.footer" = "Η κρύπτη σας είναι κλειδωμένη.";
+"vaultDetail.moveVault.detectedMasterkey.text" = "Το Cryptomator εντόπισε μια υπάρχον κρύπτη σε αυτή τη θέση.\nΓια να μετακινήσετε τη κρύπτη σας, παρακαλώ επιστρέψτε και επιλέξτε ένα διαφορετικό φάκελο.";
+"vaultDetail.moveVault.progress" = "Μετακίνηση…";
+"vaultDetail.removeVault.footer" = "Αυτό θα αφαιρέσει μόνο την κρύπτη από τη λίστα κρύπτης και δεν θα διαγράψει κρυπτογραφημένα αρχεία.";
+"vaultDetail.renameVault.progress" = "Μετονομασία…";
+"vaultDetail.unlocked.footer" = "Η κρύπτη σας είναι ξεκλειδωμένη αυτή τη στιγμή στην εφαρμογή Αρχείων.";
+"vaultDetail.unlockVault.footer" = "Εισάγετε τον κωδικό πρόσβασης για το \"%@\" για να τον αποθηκεύσετε στο iOS keychain και για να ενεργοποιήσετε %@.";
+
+"vaultList.header.title" = "Κρύπτες";
+"vaultList.emptyList.message" = "Πατήστε εδώ για να προσθέσετε μια κρύπτη";
+"vaultList.remove.alert.title" = "Αφαίρεση Κρύπτης;";
+"vaultList.remove.alert.message" = "Αυτό θα αφαιρέσει μόνο την κρύπτη από τη λίστα κρυπτών. Δεν θα αφαιρέσει κρυπτογραφημένα δεδομένα. Μπορείτε να προσθέσετε ξανά την κρύπτη αργότερα.";
+
+"vaultProviderFactory.error.unsupportedVaultConfig" = "Η ρύθμιση παραμέτρων της κρύπτης δεν υποστηρίζεται. Παρακαλώ σιγουρευτείτε ότι εκτελείτε την τελευταία έκδοση του Cryptomator.";
+"vaultProviderFactory.error.unsupportedVaultVersion" = "Η έκδοση %ld της κρύπτης δεν υποστηρίζεται. Αυτή η κρύπτη έχει δημιουργηθεί με παλαιότερη ή νεότερη έκδοση του Cryptomator.";
+
+"webDAVAuthentication.httpConnection.alert.title" = "Χρήση HTTPS;";
+"webDAVAuthentication.httpConnection.alert.message" = "Η χρήση του HTTP είναι μη ασφαλής. Σας συνιστούμε να χρησιμοποιήσετε το HTTPS αντ 'αυτού. Αν γνωρίζετε τους κινδύνους, μπορείτε να συνεχίσετε με το HTTP.";
+"webDAVAuthentication.httpConnection.change" = "Αλλαγή σε HTTPS";
+"webDAVAuthentication.httpConnection.continue" = "Διατήρηση HTTP";
+
+"webDAVAuthenticator.error.unsupportedProtocol" = "Ο διακομιστής δε φαίνεται να είναι συμβατός με WebDAV. Παρακαλώ ελέγξτε αν έχετε χρησιμοποιήσει τη σωστή διεύθυνση URL.";
+"webDAVAuthenticator.error.untrustedCertificate" = "Το πιστοποιητικό αυτού του διακομιστή δεν είναι έμπιστο. Ίσως χρειαστεί να προσθέσετε ξανά αυτή τη σύνδεση WebDAV.";
+
+"Retry Upload" = "Δοκιμάστε ξανά τη μεταφόρτωση";
+"Clear from Cache" = "Εκκαθάριση από τη μνήμη Cache";

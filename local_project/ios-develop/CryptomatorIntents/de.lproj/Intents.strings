@@ -1,0 +1,33 @@
+"common.failureReason" = "Fehlerursache";
+"common.false" = "falsch";
+"common.folder" = "Ordner";
+"common.true" = "wahr";
+"common.vault" = "Tresor";
+
+"getFolderIntent.description" = "Gibt ein Ordnerobjekt für den angegebenen Pfad im angegebenen Tresor zurück.";
+"getFolderIntent.path" = "Pfad";
+"getFolderIntent.text" = "Ordner unter ${path} in ${vault} abrufen";
+"getFolderIntent.title" = "Ordner abrufen";
+
+"isUnlockedIntent.description" = "Gibt zurück, ob der angegebene Tresor entsperrt ist.";
+"isUnlockedIntent.title" = "Ist entsperrt";
+
+"isVaultLockedIntent.title" = "Ist Tresor entsperrt";
+"isVaultUnlockedIntent.text" = "Ist ${vault} entsperrt?";
+
+"lockVaultIntent.description" = "Sperrt den angegebenen Tresor.";
+"lockVaultIntent.text" = "${vault} sperren";
+"lockVaultIntent.title" = "Tresor sperren";
+
+"openVaultIntent.description" = "Öffnet den angegebenen Tresor in der Datei-App.";
+"openVaultIntent.text" = "${vault} in der Datei-App öffnen";
+"openVaultIntent.title" = "Tresor öffnen";
+
+"saveFileIntent.description" = "Speichert eine Datei in einem Tresor.";
+"saveFileIntent.file" = "Datei";
+"saveFileIntent.parameter.ignoreExisting" = "Bestehende Datei mit gleichem Namen ignorieren";
+"saveFileIntent.text" = "${file} in ${folder} speichern";
+"saveFileIntent.title" = "Datei speichern";
+
+"vaultFolder.displayName" = "Tresorordner";
+"vaultFolder.vaultIdentifier" = "Tresor-Bezeichnung";

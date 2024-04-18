@@ -1,0 +1,305 @@
+/* 
+  Localizable.strings
+  Cryptomator
+
+  Copyright © 2021 Skymatic GmbH. All rights reserved.
+*/
+
+"common.alert.error.title" = "Błąd";
+"common.alert.attention.title" = "Uwaga";
+"common.button.cancel" = "Anuluj";
+"common.button.change" = "Zmień";
+"common.button.choose" = "Wybierz";
+"common.button.clear" = "Wyczyść";
+"common.button.close" = "Zamknij";
+"common.button.confirm" = "Zatwierdź";
+"common.button.create" = "Utwórz";
+"common.button.createFolder" = "Utwórz Folder";
+"common.button.done" = "Gotowe";
+"common.button.download" = "Pobierz";
+"common.button.edit" = "Edytuj";
+"common.button.enable" = "Włącz";
+"common.button.next" = "Dalej";
+"common.button.ok" = "OK";
+"common.button.refresh" = "Odśwież";
+"common.button.register" = "Zarejestruj";
+"common.button.remove" = "Usuń";
+"common.button.retry" = "Ponów";
+"common.button.signOut" = "Wyloguj";
+"common.button.verify" = "Potwierdź";
+"common.cells.openInFilesApp" = "Otwórz w aplikacji Pliki";
+"common.cells.password" = "Hasło";
+"common.cells.url" = "URL";
+"common.cells.username" = "Login";
+"common.footer.learnMore" = "Więcej informacji.";
+"common.hud.authenticating" = "Uwierzytelnianie…";
+
+"accountList.header.title" = "Uwierzytelnianie";
+"accountList.emptyList.message" = "Dotknij tutaj, aby dodać konto";
+"accountList.signOut.alert.title" = "Usunąć powiązane sejfy?";
+"accountList.signOut.alert.message" = "Po wylogowaniu wszystkie powiązane sejfy zostaną usunięte z listy. Żadne zaszyfrowane dane nie zostaną usunięte. Po ponownym logowaniu będzie można znowu dodać sejfy.";
+
+"addVault.title" = "Dodaj sejf";
+"addVault.createNewVault.title" = "Utwórz nowy sejf";
+"addVault.createNewVault.purchase" = "Tworzenie nowego sejfu wymaga pełnej wersji Cryptomatora.";
+"addVault.createNewVault.setVaultName.header.title" = "Wybierz nazwę sejfu.";
+"addVault.createNewVault.setVaultName.cells.name" = "Nazwa sejfu";
+"addVault.createNewVault.setVaultName.error.emptyVaultName" = "Nazwa sejfu nie może być pusta.";
+"addVault.createNewVault.chooseCloud.header" = "Gdzie Cryptomator powinien przechowywać zaszyfrowane pliki twojego sejfu?";
+"addVault.createNewVault.chooseFolder.error.vaultNameCollision" = "\"%@\" już istnieje w tej lokalizacji. Wybierz inną nazwę lub lokalizację sejfu.";
+"addVault.createNewVault.detectedMasterkey.text" = "Cryptomator wykrył istniejący sejf w tej lokalizacji.\nAby utworzyć nowy sejf, wróć i wybierz inny folder.";
+"addVault.createNewVault.password.enterPassword.header" = "Wprowadź nowe hasło.";
+"addVault.createNewVault.password.confirmPassword.header" = "Potwierdź nowe hasło.";
+"addVault.createNewVault.password.confirmPassword.alert.title" = "Potwierdzić hasło?";
+"addVault.createNewVault.password.confirmPassword.alert.message" = "WAŻNE: Jeśli zapomnisz hasła, nie ma możliwości odzyskania danych.";
+"addVault.createNewVault.password.error.emptyPassword" = "Hasło nie może być puste.";
+"addVault.createNewVault.password.error.nonMatchingPasswords" = "Hasła nie są identyczne.";
+"addVault.createNewVault.password.error.tooShortPassword" = "Hasło musi zawierać co najmniej 8 znaków.";
+"addVault.createNewVault.progress" = "Tworzenie sejfu…";
+"addVault.openExistingVault.title" = "Otwórz istniejący sejf";
+"addVault.openExistingVault.chooseCloud.header" = "Gdzie znajduje się sejf?";
+"addVault.openExistingVault.detectedMasterkey.text" = "Cryptomator wykrył sejf \"%@\".\nCzy chcesz dodać ten sejf?";
+"addVault.openExistingVault.detectedMasterkey.add" = "Dodaj ten sejf";
+"addVault.openExistingVault.downloadVault.progress" = "Pobieranie sejfu…";
+"addVault.openExistingVault.password.footer" = "Wprowadź hasło dla \"%@\".";
+"addVault.openExistingVault.progress" = "Dodawanie sejfu…";
+"addVault.success.info" = "Dodano sejf \"%@\".\nUzyskaj dostęp do tego sejfu poprzez aplikację Pliki.";
+"addVault.success.footer" = "Jeśli jeszcze tego nie zrobiłeś, włącz Cryptomator w aplikacji Pliki.";
+
+"biometryType.faceID" = "Face ID";
+"biometryType.touchID" = "Touch ID";
+
+"changePassword.error.invalidOldPassword" = "To hasło jest nieprawidłowe. Spróbuj ponownie.";
+"changePassword.header.currentPassword.title" = "Wprowadź obecne hasło.";
+"changePassword.header.newPassword.title" = "Wprowadź nowe hasło.";
+"changePassword.header.newPasswordConfirmation.title" = "Potwierdź nowe hasło.";
+"changePassword.progress" = "Zmienianie hasła…";
+
+"chooseFolder.emptyFolder.footer" = "Folder jest pusty";
+"chooseFolder.createNewFolder.header.title" = "Wybierz nazwę katalogu.";
+"chooseFolder.createNewFolder.cells.name" = "Nazwa katalogu";
+"chooseFolder.createNewFolder.error.emptyFolderName" = "Nazwa folderu nie może być pusta.";
+"chooseFolder.createNewFolder.progress" = "Tworzenie katalogu…";
+
+"cloudProvider.error.itemNotFound" = "\"%@\" nie został odnaleziony.";
+"cloudProvider.error.itemAlreadyExists" = "\"%@\" już istnieje.";
+"cloudProvider.error.itemTypeMismatch" = "\"%@\" ma nieoczekiwany typ przedmiotu.";
+"cloudProvider.error.parentFolderDoesNotExist" = "Folder nadrzędny \"%@\" nie istnieje.";
+"cloudProvider.error.pageTokenInvalid" = "Pobieranie zawartości katalogu nie może być kontynuowane.";
+"cloudProvider.error.quotaInsufficient" = "Brak wystarczającej ilości miejsca w danej lokalizacji.";
+"cloudProvider.error.unauthorized" = "Nie można wykonać operacji nieautoryzowanej.";
+"cloudProvider.error.noInternetConnection" = "Połączenie z Internetem jest wymagane do wykonania tej operacji.";
+
+"cloudProviderType.localFileSystem" = "Inny dostawca plików";
+
+"fileProvider.onboarding.title" = "Witamy";
+"fileProvider.onboarding.info" = "Dziękujemy za wybranie programu Cryptomator do ochrony plików. Aby rozpocząć, przejdź do głównej aplikacji i dodaj sejf.";
+"fileProvider.onboarding.button.openCryptomator" = "Otwórz Cryptomator";
+"fileProvider.error.biometricalAuthCanceled.title" = "Odblokowanie anulowane";
+"fileProvider.error.biometricalAuthCanceled.message" = "Odblokowanie przez %@ nie powiodło się. Spróbuj ponownie.";
+"fileProvider.error.biometricalAuthWrongPassword.title" = "Błędne hasło";
+"fileProvider.error.biometricalAuthWrongPassword.message" = "Hasło zapisane dla %@ jest błędne. Spróbuj ponownie i wpisz hasło, aby ponownie włączyć %@.";
+"fileProvider.error.defaultLock.title" = "Wymagane odblokowanie";
+"fileProvider.error.defaultLock.message" = "Sejf musi być odblokowany aby zobaczyć i mieć dostęp do jego zawartości.";
+"fileProvider.error.unlockButton" = "Odblokuj";
+"fileProvider.clearFileFromCache.title" = "Usuń plik z pamięci podręcznej";
+"fileProvider.clearFileFromCache.message" = "Powoduje to jedynie usunięcie pliku lokalnego z urządzenia, a nie usunięcie pliku w chmurze.";
+"fileProvider.fileImporting.error.missingPremium" = "Odblokuj pełną wersję aplikacji Cryptomator, aby uzyskać możliwość zapisu w sejfach.";
+"fileProvider.uploadProgress.connecting" = "Łączenie…";
+"fileProvider.uploadProgress.message" = "Bieżący postęp: %@\n\nJeśli zauważysz, że postęp przesyłania zawiesił się, możesz spróbować ponownie przesłać dane.";
+"fileProvider.uploadProgress.missing" = "Nie można zweryfikować postępu. Może on nadal działać w tle.";
+"fileProvider.uploadProgress.title" = "Przesyłanie…";
+"fileProvider.uploadProgress.missingDomainError" = "Nie można odnaleźć domeny.";
+
+"getFolderIntent.error.missingPath" = "Nie podano ścieżki. Proszę podać prawidłową ścieżkę do folderu.";
+"getFolderIntent.error.noVaultSelected" = "Nie wybrano sejfu.";
+
+"hubAuthentication.title" = "Hub sejfów";
+"hubAuthentication.accessNotGranted" = "Twoje urządzenie nie zostało jeszcze upoważnione do dostępu do tego sejfu. Poproś właściciela sejfu o autoryzację.";
+"hubAuthentication.licenseExceeded" = "Twoja instancja Hub ma nieprawidłową licencję. Poproś administratora Hub o uaktualnienie lub odnowienie licencji.";
+"hubAuthentication.deviceRegistration.deviceName.cells.name" = "Nazwa urządzenia";
+"hubAuthentication.deviceRegistration.deviceName.footer.title" = "Wygląda że jest to pierwszy dostęp do Huba z tego urządzenia. Aby zidentyfikować go w celu autoryzacji dostępu, musisz nazwać to urządzenie.";
+"hubAuthentication.deviceRegistration.accountKey.footer.title" = "Twój Klucz Konta jest wymagany do zalogowania się z nowych aplikacji lub przeglądarek. Można go znaleźć w twoim profilu.";
+"hubAuthentication.deviceRegistration.needsAuthorization.alert.title" = "Rejestracja urządzenia powiodła się";
+"hubAuthentication.deviceRegistration.needsAuthorization.alert.message" = "Aby dostać się do sejfu, Twoje urządzenie musi być autoryzowane przez właściciela sejfu.";
+"hubAuthentication.requireAccountInit.alert.title" = "Wymagane działanie";
+"hubAuthentication.requireAccountInit.alert.message" = "Aby kontynuować, wykonaj kroki wymagane w profilu użytkownika Hub.";
+"hubAuthentication.requireAccountInit.alert.actionButton" = "Przejdź do profilu";
+
+"intents.saveFile.missingFile" = "Wskazany plik nie jest prawidłowy.";
+"intents.saveFile.invalidFolder" = "Wskazany folder jest niewłaściwy.";
+"intents.saveFile.missingTemporaryFolder" = "Nie udało się utworzyć katalogu tymczasowego.";
+"intents.saveFile.lockedVault" = "Musisz odblokować sejf, aby użyć tego skrótu.";
+"intents.saveFile.selectedVaultNotFound" = "Nie znaleziono wybranego sejfu.";
+
+"keepUnlocked.alert.title" = "Zablokować sejf?";
+"keepUnlocked.alert.message" = "Wprowadzenie tej zmiany wymaga zablokowania sejfu.";
+"keepUnlocked.alert.confirm" = "Potwierdź i zablokuj teraz";
+"keepUnlocked.header" = "Określ na jak długo ten sejf ma być odblokowany podczas bezczynności.";
+"keepUnlocked.footer.auto" = "Pozostawienie decyzji iOS oznacza, że Cryptomator może zostać zamknięty w każdym momencie w celu zwolnienia pamięci, co automatycznie blokuje sejf.";
+"keepUnlocked.footer.on" = "Używając tej opcji, kopia klucza będzie przechowywana w pęku kluczy iOS póki sejf jest odblokowany.";
+"keepUnlockedDuration.auto" = "Pozwól iOS decydować automatycznie";
+"keepUnlockedDuration.auto.shortDisplayName" = "Auto";
+"keepUnlockedDuration.indefinite" = "Bez końca";
+
+"localFileSystemAuthentication.createNewVault.header" = "Na następnym ekranie wybierz lokalizację dla swojego nowego sejfu.";
+"localFileSystemAuthentication.createNewVault.button" = "Wybierz lokalizację sejfu";
+"localFileSystemAuthentication.createNewVault.error.detectedExistingVault" = "Sejf już istnieje w tej lokalizacji. Spróbuj ponownie z inną lokalizacją.";
+"localFileSystemAuthentication.openExistingVault.header" = "Na następnym ekranie wybierz folder istniejącego sejfu.";
+"localFileSystemAuthentication.openExistingVault.button" = "Wybierz folder sejfu";
+"localFileSystemAuthentication.openExistingVault.error.noVaultFound" = "Wybrany folder nie jest sejfem. Spróbuj ponownie z innym katalogiem.";
+"localFileSystemAuthentication.info.footer" = "Serwisy na szaro nie wspierają \"wybierania katalogów\". To nie jest ograniczenie w Cryptomator.";
+
+"maintenanceModeError.runningCloudTask" = "Operacja nie może być wykonana, ponieważ inne operacje działające w tle dla tego sejfu muszą zostać zakończone. Spróbuj ponownie później.";
+
+"nameValidation.error.endsWithPeriod" = "Nazwa kończąca się kropką jest niedozwolona. Proszę wybrać inną nazwę.";
+"nameValidation.error.endsWithSpace" = "Nazwa kończąca się spacją jest niedozwolona. Proszę wybrać inną nazwę.";
+"nameValidation.error.containsIllegalCharacter" = "Nazwa zawierająca \"%@\" jest niedozwolona. Proszę wybrać inną nazwę.";
+
+"onboarding.title" = "Witamy";
+"onboarding.info" = "Dziękujemy za wybranie Cryptomator w celu ochrony plików.\n\nZa pomocą Cryptomator klucz do Twoich danych znajduje się w Twoich rękach. Cryptomator szybko i łatwo szyfruje Twoje dane.\n\nTa aplikacja jest w pełni zintegrowana z aplikacją Pliki. Upewnij się, że włączono Cryptomator w aplikacji Pliki, aby uzyskać dostęp do sejfów.";
+"onboarding.button.continue" = "Kontynuuj";
+
+"purchase.beginFreeTrial.alert.title" = "Wersja próbna odblokowana";
+"purchase.expiredTrial" = "Twój okres próbny się skończył.";
+"purchase.footer.privacyPolicy" = "Polityka prywatności";
+"purchase.footer.termsOfUse" = "Warunki użytkowania";
+"purchase.header.feature.familySharing" = "Plan rodzinny";
+"purchase.header.feature.openSource" = "Rozwój oprogramowania typu open-source";
+"purchase.header.feature.writeAccess" = "Zapis w Twoich sejfach";
+"purchase.product.donateAndUpgrade" = "Wesprzyj i ulepsz";
+"purchase.product.freeUpgrade" = "Darmowa aktualizacja";
+"purchase.product.lifetimeLicense" = "Dożywotnia licencja";
+"purchase.product.lifetimeLicense.duration" = "jednorazowo";
+"purchase.product.pricing.free" = "Darmowe";
+"purchase.product.trial" = "Okres próbny 30 dni";
+"purchase.product.trial.expirationDate" = "Aktywne do: %@";
+"purchase.product.trial.duration" = "przez 30 dni";
+"purchase.product.yearlySubscription" = "Subskrypcja roczna";
+"purchase.product.yearlySubscription.duration" = "rocznie";
+"purchase.readOnlyMode.alert.title" = "Tryb tylko do odczytu";
+"purchase.readOnlyMode.alert.message" = "Możesz odblokować pełną wersję Cryptomator później w ustawieniach i na razie używać trybu tylko do odczytu.";
+"purchase.restorePurchase.button" = "Przywróć zakup";
+"purchase.restorePurchase.validTrialFound.alert.title" = "Kontynuacja okresu próbnego";
+"purchase.restorePurchase.validTrialFound.alert.message" = "Teraz możesz używać pełnej wersji Cryptomator przez ograniczony czas. Twój okres próbny kończy się w dniu %@. Po tym sejfy będą nadal dostępne w trybie tylko do odczytu.";
+"purchase.restorePurchase.fullVersionFound.alert.title" = "Przywrócono pomyślnie";
+"purchase.restorePurchase.fullVersionNotFound.alert.title" = "Brak pełnej wersji";
+"purchase.restorePurchase.fullVersionNotFound.alert.message" = "Nie mogliśmy znaleźć wcześniej zakupionej pełnej wersji, która mogłaby zostać przywrócona. Proszę spróbować innej opcji.";
+"purchase.restorePurchase.eligibleForUpgrade.alert.title" = "Możliwość ulepszenia wersji";
+"purchase.restorePurchase.eligibleForUpgrade.alert.message" = "Wygląda na to, że próbujesz uaktualnić ze starszej wersji Cryptomator. W takim przypadku wybierz opcję \"Uaktualnij Ofertę\".";
+"purchase.retry.button" = "Ponów";
+"purchase.retry.footer" = "Nie można załadować dostępnych produktów.";
+"purchase.title" = "Odblokuj pełną wersję";
+"purchase.unlockedFullVersion.message" = "Możesz teraz używać pełnej wersji Cryptomator. Szczęśliwego szyfrowania!";
+"purchase.unlockedFullVersion.title" = "Dziękujemy";
+"purchase.error.unknown" = "Opcja zakupu jest niedostępna w App Store z nieznanego powodu. Spróbuj ponownie później.\n\nJeśli ten błąd będzie się powtarzał, spróbuj zrestartować urządzenie lub wylogować i zalogować się swoim Apple ID w ustawieniach iOS.";
+
+"settings.title" = "Ustawienia";
+"settings.aboutCryptomator" = "O Cryptomator";
+"settings.aboutCryptomator.title" = "Wersja %@ (%@)";
+"settings.cacheSize" = "Rozmiar pamięci podręcznej";
+"settings.clearCache" = "Wyczyść pamięć podręczną";
+"settings.cloudServices" = "Usługi w chmurze";
+"settings.contact" = "Kontakt";
+"settings.debugMode" = "Tryb debugowania";
+"settings.debugMode.alert.message" = "W tym trybie poufne dane mogą być zapisywane do pliku dziennika na urządzeniu (np. nazwy plików i ścieżki). Hasła, ciasteczka itp. są wykluczone.\n\nPamiętaj, aby wyłączyć tryb debugowania tak szybko, jak to możliwe.";
+"settings.manageSubscriptions" = "Zarządzaj subskrypcją";
+"settings.rateApp" = "Oceń aplikację";
+"settings.sendLogFile" = "Wyślij plik logów";
+"settings.shortcutsGuide" = "Przewodnik po skrótach";
+"settings.unlockFullVersion" = "Odblokuj pełną wersję";
+
+"snapshots.fileprovider.file1" = "/Numery.Kont";
+"snapshots.fileprovider.file2" = "/Finalna Prezentacja.key";
+"snapshots.fileprovider.file3" = "/Trailer.mov";
+"snapshots.fileprovider.file4" = "/Proposal.docx";
+"snapshots.fileprovider.file5" = "/Raport.pdf";
+"snapshots.fileprovider.folder3" = "/Tajny projekt";
+"snapshots.fileprovider.folder2" = "/Faktury";
+"snapshots.fileprovider.folder1" = "/Certyfikaty";
+"snapshots.main.vault1" = "/Praca";
+"snapshots.main.vault2" = "/Rodzina";
+"snapshots.main.vault3" = "/Dokumenty";
+"snapshots.main.vault4" = "/Podróż do Kalifornii";
+
+"s3Authentication.displayName" = "Wyświetl nazwę";
+"s3Authentication.accessKey" = "Klucz dostępu";
+"s3Authentication.secretKey" = "Tajny klucz";
+"s3Authentication.existingBucket" = "Istniejący Bucket";
+"s3Authentication.endpoint" = "Endpoint";
+"s3Authentication.region" = "Region";
+"s3Authentication.error.invalidCredentials" = "Nieprawidłowe dane logowania.";
+"s3Authentication.error.invalidEndpoint" = "Podany endpoint nie pasuje do formatu URL.";
+
+"trialStatus.active" = "Aktywny";
+"trialStatus.expired" = "Wygasły";
+
+"unlockVault.button.unlock" = "Odblokuj";
+"unlockVault.button.unlockVia" = "Odblokuj przez %@";
+"unlockVault.password.footer" = "Wprowadź hasło dla \"%@\".";
+"unlockVault.enableBiometricalUnlock.switch" = "Włącz %@";
+"unlockVault.enableBiometricalUnlock.footer" = "Zamiast hasłem możesz odblokować sejf za pomocą %@.";
+"unlockVault.evaluatePolicy.reason" = "Odblokuj swój sejf";
+"unlockVault.progress" = "Odblokowywanie…";
+
+"untrustedTLSCertificate.title" = "Błędny certyfikat TLS";
+"untrustedTLSCertificate.message" = "Certyfikat TLS \"%@\" jest nieprawidłowy. Czy mimo to jest zaufany?\n\n SHA-256: %@";
+"untrustedTLSCertificate.add" = "Zaufany";
+"untrustedTLSCertificate.dismiss" = "Niezaufany";
+
+"upgrade.title" = "Zrób upgrade";
+"upgrade.notEligible.alert.title" = "Błąd aktualizacji";
+"upgrade.notEligible.alert.message" = "Cryptomator nie wykrył starszej wersji na Twoim urządzeniu. Jeśli ją kupiłeś, pobierz ją ponownie z App Store i spróbuj ponownie.";
+"upgrade.info" = "Dziękujemy za bycie z nami od pierwszej wersji. Jako lojalny użytkownik możesz korzystać z darmowej aktualizacji.";
+
+"urlSession.error.httpError.401" = "Błędna nazwa użytkownika i/lub hasło.";
+"urlSession.error.httpError.403" = "Niewystarczające uprawnienia do żądanego zasobu.";
+"urlSession.error.httpError.404" = "Żądany zasób nie został znaleziony.";
+"urlSession.error.httpError.405" = "Żądana metoda nie jest obsługiwana przez docelowy zasób.";
+"urlSession.error.httpError.409" = "Żądanie nie może być zrealizowane, konflikt z obecnym statusem zasobu.";
+"urlSession.error.httpError.412" = "Odmowa dostępu do docelowego zasobu.";
+"urlSession.error.httpError.default" = "Połączenie sieciowe nie powiodło się z kodem stanu %ld.";
+"urlSession.error.unexpectedResponse" = "Nieoczekiwana odpowiedź z sieci.";
+
+"vaultAccountManager.error.vaultAccountAlreadyExists" = "Już dodałeś ten sejf.";
+
+"vaultDetail.button.changeVaultPassword" = "Zmiana Hasła";
+"vaultDetail.button.lock" = "Zablokuj";
+"vaultDetail.button.moveVault" = "Przenieś";
+"vaultDetail.button.removeVault" = "Usuń z listy sejfów";
+"vaultDetail.button.renameVault" = "Zmień nazwę";
+"vaultDetail.changePassword.footer" = "Wybierz silne hasło dla swojego sejfu, nikomu go nie podawaj i trzymaj je w bezpiecznym miejscu.";
+"vaultDetail.disabledBiometricalUnlock.footer" = "Jeśli włączysz %@, hasło sejfu będzie przechowywane w pęku kluczy iOS.";
+"vaultDetail.enabledBiometricalUnlock.footer" = "Twoje hasło do sejfu będzie wymagane tylko gdy uwierzytelnienie %@ nie powiedzie się.";
+"vaultDetail.info.footer.accessVault" = "Uzyskaj dostęp do sejfu przez aplikację Pliki.";
+"vaultDetail.info.footer.accountInfo" = "Zalogowano jako %@ przez %@.";
+"vaultDetail.keepUnlocked.title" = "Czas odblokowania";
+"vaultDetail.keepUnlocked.footer.off" = "Odblokowanie będzie wymagane, gdy Cryptomator zostanie zakończony przez aplikację Pliki.";
+"vaultDetail.keepUnlocked.footer.limitedDuration" = "Odblokowanie będzie wymagane, gdy Twój sejf będzie bezczynny przez %@.";
+"vaultDetail.keepUnlocked.footer.unlimitedDuration" = "Odblokowanie nie będzie wymagane, chyba że nastąpi zablokowanie ręcznie.";
+"vaultDetail.locked.footer" = "Twój sejf jest obecnie zablokowany.";
+"vaultDetail.moveVault.detectedMasterkey.text" = "Cryptomator wykrył istniejący sejf w tym miejscu.\nAby zmienić miejsce docelowe, wróć i wybierz inny folder.";
+"vaultDetail.moveVault.progress" = "Przenoszenie…";
+"vaultDetail.removeVault.footer" = "Spowoduje to wyłącznie usunięcie sejfu z listy, zaszyfrowane pliki nie zostaną skasowane.";
+"vaultDetail.renameVault.progress" = "Zmiana nazwy…";
+"vaultDetail.unlocked.footer" = "Twój sejf jest obecnie odblokowany w aplikacji Pliki.";
+"vaultDetail.unlockVault.footer" = "Wprowadź hasło dla \"%@\", aby zapisać je w pęku kluczy iOS i aktywować %@.";
+
+"vaultList.header.title" = "Sejfy";
+"vaultList.emptyList.message" = "Kliknij tutaj, aby dodać sejf";
+"vaultList.remove.alert.title" = "Usunąć sejf?";
+"vaultList.remove.alert.message" = "To spowoduje usunięcie sejfu z listy. Żadne zaszyfrowane dane nie zostaną usunięte. Możesz znowu dodać ten sejf później.";
+
+"vaultProviderFactory.error.unsupportedVaultConfig" = "Konfiguracja sejfu jest nieobsługiwana. Upewnij się, że używasz najnowszej wersji Cryptomator.";
+"vaultProviderFactory.error.unsupportedVaultVersion" = "Wersja sejfu %ld jest nieobsługiwana. Ten sejf został utworzony ze starszą lub nowszą wersją Cryptomator.";
+
+"webDAVAuthentication.httpConnection.alert.title" = "Używać HTTPS?";
+"webDAVAuthentication.httpConnection.alert.message" = "Używanie HTTP jest niezabezpieczone. Zamiast tego zalecamy używanie HTTPS. Jeśli znasz ryzyko, możesz kontynuować używając HTTP.";
+"webDAVAuthentication.httpConnection.change" = "Zmień na HTTPS";
+"webDAVAuthentication.httpConnection.continue" = "Zostaw HTTP";
+
+"webDAVAuthenticator.error.unsupportedProtocol" = "Serwer wydaje się niekompatybilny z WebDAV. Proszę sprawdzić, czy użyto poprawnego adresu URL.";
+"webDAVAuthenticator.error.untrustedCertificate" = "Certyfikat tego serwera nie jest zaufany. Może być konieczne ponowne dodanie połączenia WebDAV.";
+
+"Retry Upload" = "Ponów wysyłanie";
+"Clear from Cache" = "Usuń z pamięci podręcznej";

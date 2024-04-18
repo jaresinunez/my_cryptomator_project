@@ -1,0 +1,14 @@
+"common.button.cancel" = "ยกเลิก";
+"common.button.change" = "เปลี่ยน";
+"common.button.close" = "ปิด";
+"common.button.done" = "เสร็จสิ้น";
+"common.button.next" = "ถัดไป";
+
+"addVault.title" = "เพิ่ม Vault";
+"addVault.createNewVault.title" = "สร้าง Vault ใหม่";
+"addVault.createNewVault.setVaultName.cells.name" = "ชื่อ Vault";
+"addVault.createNewVault.chooseCloud.header" = "Cryptomator ควรเก็บไฟล์ของคุณไว้ที่ไหน?";
+"addVault.openExistingVault.title" = "เปิด Vault";
+"fileProvider.error.unlockButton" = "ปลดล็อก";
+
+"unlockVault.button.unlock" = "ปลดล็อก";

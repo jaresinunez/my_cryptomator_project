@@ -1,0 +1,2 @@
+app_identifier(ENV["BUNDLE_IDENTIFIER"])
+team_id("YZQJQUHA3L")
