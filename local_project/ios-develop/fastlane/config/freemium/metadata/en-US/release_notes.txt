@@ -1,1 +1,0 @@
-- Fixed "Content Unavailable" error when unlocking vault that was created on macOS in iCloud Drive (#316)

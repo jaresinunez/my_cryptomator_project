@@ -1,8 +1,0 @@
-project: Cryptomator.xcodeproj
-schemes:
-- Cryptomator
-targets:
-- Cryptomator
-- CryptomatorFileProvider
-- FileProviderExtension
-- FileProviderExtensionUI

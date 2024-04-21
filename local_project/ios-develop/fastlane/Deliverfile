@@ -1,4 +1,0 @@
-metadata_path(ENV["METADATA_PATH"])
-submission_information({
-  add_id_info_uses_idfa: false
-})
